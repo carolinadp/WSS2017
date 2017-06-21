@@ -1,0 +1,424 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     17159,        416]
+NotebookOptionsPosition[      8355,        218]
+NotebookOutlinePosition[     14693,        359]
+CellTagsIndexPosition[     14650,        356]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Riemann Sum", "Title",
+ CellChangeTimes->{{3.700774153171832*^9, 3.700774159196458*^9}, {
+  3.705104157104324*^9, 3.7051041574063416`*^9}, {3.70568519155404*^9, 
+  3.705685209964157*^9}, {3.7070397550519667`*^9, 
+  3.707039757513372*^9}},ExpressionUUID->"ea6f7370-3cab-4d25-84b2-\
+b862bcf211d8"],
+
+Cell["Approximating the definite integral", "Abstract",
+ CellChangeTimes->{{3.700774172671139*^9, 3.700774220850109*^9}, {
+  3.700778895632181*^9, 3.700778896308676*^9}, {3.7051041615775795`*^9, 
+  3.705104170817108*^9}, {3.707040524245131*^9, 
+  3.707040564982563*^9}},ExpressionUUID->"63a5b57f-0546-4e33-a589-\
+6ae6701f580d"],
+
+Cell[CellGroupData[{
+
+Cell["Definition", "Section",
+ CellChangeTimes->{{3.700774708350976*^9, 3.700774714085747*^9}, {
+  3.7051042493566003`*^9, 3.7051042513157125`*^9}, {3.705686166481989*^9, 
+  3.7056861672865133`*^9}, {3.707040578326185*^9, 
+  3.707040581972625*^9}},ExpressionUUID->"9307efba-9c00-454b-8213-\
+025f1668690d"],
+
+Cell["Let\[CloseCurlyQuote]s ", "Text",
+ CellChangeTimes->{{3.700774312865305*^9, 3.700774350341485*^9}, {
+  3.7051042689957237`*^9, 3.7051043842073135`*^9}, {3.705105072313671*^9, 
+  3.705105092602831*^9}, {3.705683778330366*^9, 3.705683783009487*^9}, {
+  3.707040687544487*^9, 
+  3.707040694214422*^9}},ExpressionUUID->"15801ee2-6bd6-4295-8ee4-\
+f3b67437d54e"],
+
+Cell["\<\
+Direction/Caption: In a single line, say what the code that follows will do. \
+End this line with a colon (e.g. \[OpenCurlyDoubleQuote]Make a map of \
+Portugal:\[CloseCurlyDoubleQuote])\
+\>", "Direction",
+ CellChangeTimes->{{3.700774271565714*^9, 3.70077428101515*^9}, {
+  3.70510436631329*^9, 3.705104402940385*^9}, {3.7051044918334694`*^9, 
+  3.705104547547656*^9}, {3.705104583096689*^9, 3.7051045898510756`*^9}, {
+  3.705105030495279*^9, 3.70510503226538*^9}, {3.7051051046345196`*^9, 
+  3.7051052440884957`*^9}},ExpressionUUID->"170bd37b-3220-4e30-ac3b-\
+37c633e2cd52"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Code", " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Try", " ", "to", " ", "make", " ", "simple", " ", "visualizations", " ", 
+    "when", " ", "possible", " ", "to", " ", "illustrate", " ", "the", " ", 
+    "topic", " ", "and", " ", "create", " ", "visual", " ", 
+    RowBox[{"interest", "."}]}], " ", "*)"}]}]], "Input",
+ CellChangeTimes->{{3.700774255707568*^9, 3.70077426783818*^9}, {
+  3.7051044212184305`*^9, 3.705104469954218*^9}, {3.705105265576725*^9, 
+  3.7051053685916166`*^9}, {3.705105596267639*^9, 3.705105691655095*^9}, {
+  3.7056842975415497`*^9, 3.705684356018416*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"f61c6b6a-bfe1-4e8b-a538-ff0a10226f98"],
+
+Cell[BoxData["Code"], "Output",
+ CellChangeTimes->{3.7051053751989946`*^9, 3.705684296006131*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"82475bbd-de44-45a0-ad5b-68f2fd830580"]
+}, Open  ]],
+
+Cell["Text", "Text",
+ CellChangeTimes->{{3.705683964567428*^9, 
+  3.705683981488122*^9}},ExpressionUUID->"94cfe48d-9e74-4b99-bed4-\
+7ff358046ea9"],
+
+Cell["Direction", "Direction",
+ CellChangeTimes->{{3.7056860922471857`*^9, 
+  3.7056860957264357`*^9}},ExpressionUUID->"a9067e71-e82c-4d66-a2c5-\
+a2a4443f04db"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["Code"], "Input",
+ CellChangeTimes->{{3.700774287998974*^9, 3.700774297728869*^9}, {
+  3.7051045527899556`*^9, 3.7051045647306385`*^9}, {3.705105385992612*^9, 
+  3.7051053864506383`*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"b95315fd-d266-4051-8f89-075d9f87c96d"],
+
+Cell[BoxData["Code"], "Output",
+ CellChangeTimes->{3.700774298524872*^9, 3.7010040356134663`*^9, 
+  3.7051045663507314`*^9, 3.7051053877697144`*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"ae80f718-3338-4827-83fa-4c09297c578d"]
+}, Open  ]],
+
+Cell["\<\
+Repeat this pattern as needed to explain the section. Feel free to skip text \
+lines if direction/caption lines are sufficient, but do not skip code cells.\
+\>", "Text",
+ CellChangeTimes->{{3.705104661930198*^9, 3.705104689215759*^9}, {
+  3.7051047393916287`*^9, 3.705104783753166*^9}, {3.7051049729169855`*^9, 
+  3.7051050045267935`*^9}, {3.705169822193218*^9, 
+  3.705169825188218*^9}},ExpressionUUID->"eb656b6c-f81e-4408-bc9b-\
+549833b2a2cc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Add more sections as needed to explain the topic  ",
+ StyleBox["(cmd/alt+4) ",
+  FontSize->18,
+  FontColor->GrayLevel[0.5]]
+}], "Section",
+ CellChangeTimes->{{3.70510464885445*^9, 3.7051046548567934`*^9}, {
+  3.7051046932679906`*^9, 3.7051047014174566`*^9}, {3.705686116931855*^9, 
+  3.7056861543411007`*^9}},ExpressionUUID->"f50c1d09-df9e-4283-9b27-\
+a060b6deb922"],
+
+Cell["\<\
+Section names, the total number of sections, and section organization will \
+differ based on the topic.\
+\>", "Text",
+ CellChangeTimes->{{3.705105405379721*^9, 3.7051054963769255`*^9}, {
+  3.705105533220033*^9, 3.705105546902816*^9}, {3.7051057273781385`*^9, 
+  3.7051057494323997`*^9}, {3.705169934558218*^9, 
+  3.705169973362218*^9}},ExpressionUUID->"bc63cf7a-8a2b-44fd-a55d-\
+347228466e47"],
+
+Cell["Here are some ideas for sections you might consider: ", "Text",
+ CellChangeTimes->{{3.705105405379721*^9, 3.7051054963769255`*^9}, {
+  3.705105533220033*^9, 3.705105546902816*^9}, {3.7051057273781385`*^9, 
+  3.7051057494323997`*^9}, {3.705169934558218*^9, 3.705169988457218*^9}, {
+  3.705684730078251*^9, 
+  3.705684763960388*^9}},ExpressionUUID->"3eddae3b-8ddb-47c4-a3b6-\
+31b55897154a"],
+
+Cell["\<\
+history/origins\[LineSeparator]derivation\[LineSeparator]applications\
+\[LineSeparator]common misunderstandings\[LineSeparator]recent developments\
+\[LineSeparator]unanswered questions\
+\>", "Text",
+ CellChangeTimes->{{3.705105405379721*^9, 3.7051054963769255`*^9}, {
+  3.705105533220033*^9, 3.705105546902816*^9}, {3.7051057273781385`*^9, 
+  3.7051057494323997`*^9}, {3.705169934558218*^9, 3.705169988457218*^9}, {
+  3.705684730078251*^9, 
+  3.705684755671308*^9}},ExpressionUUID->"459b9d59-5b95-4b83-848c-\
+25dd256fc7f9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Further Explorations", "FurtherExplorationSection",
+ CellChangeTimes->{{3.70077612322993*^9, 3.7007761320921593`*^9}, {
+  3.7007787731699142`*^9, 
+  3.70077877480995*^9}},ExpressionUUID->"7ef20670-b778-4c88-88d7-\
+81c532754f9f"],
+
+Cell["Name of a related topic for exploration", "FurtherExploration",
+ CellChangeTimes->{{3.7007765492418337`*^9, 3.7007765636102467`*^9}, {
+  3.705104213701561*^9, 3.7051042224510612`*^9}, {3.7051697227932177`*^9, 
+  3.7051697367862177`*^9}, {3.7056847753333597`*^9, 3.7056847788413363`*^9}, {
+  3.705686193025524*^9, 
+  3.7056861967297907`*^9}},ExpressionUUID->"f65c51ba-98e6-43ad-9f45-\
+1adec289b51e"],
+
+Cell["\<\
+Name of another related topics for exploration (repeat as needed)\
+\>", "FurtherExploration",
+ CellChangeTimes->{{3.7007765492418337`*^9, 3.7007765636102467`*^9}, {
+  3.705104213701561*^9, 3.7051042224510612`*^9}, {3.705105582902875*^9, 
+  3.7051055862950687`*^9}, {3.705686185124048*^9, 
+  3.705686188552953*^9}},ExpressionUUID->"b204f7dd-3f75-482b-aeab-\
+711b1cc88367"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Authorship information", "AuthorshipSection",
+ CellChangeTimes->{{3.705105762145127*^9, 
+  3.7051057665253773`*^9}},ExpressionUUID->"c80bebae-f63a-4557-92de-\
+312215b6b2a9"],
+
+Cell["Name of Author", "Authorship",
+ CellChangeTimes->{{3.7051057700535793`*^9, 
+  3.7051057808261957`*^9}},ExpressionUUID->"7c8d0422-e70d-41a8-846b-\
+7130ee07eb45"],
+
+Cell["Date of creation", "Authorship",
+ CellChangeTimes->{{3.705105786521521*^9, 
+  3.7051057998362827`*^9}},ExpressionUUID->"d014e466-a354-4f0b-b7f9-\
+22c7d722436c"],
+
+Cell["\<\
+Author email address (please use the email associated with your Wolfram User \
+ID)\
+\>", "Authorship",
+ CellChangeTimes->{{3.7051058070526953`*^9, 
+  3.705105841815684*^9}},ExpressionUUID->"5fe63f23-a9be-451f-8a07-\
+0c7c4cb72af8"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{236, Automatic}, {Automatic, 0}},
+DockedCells->Cell[
+  BoxData[
+   TagBox[
+    GridBox[{{
+       ItemBox["\"\"", ItemSize -> 0.2, StripOnInput -> False], 
+       DynamicModuleBox[{}, 
+        ActionMenuBox[
+        "\"Insert\"", {
+         "\"Section\"" :> 
+          Module[{$CellContext`nb = ButtonNotebook[]}, 
+            Exploration`MoveCursorAfterCellPosition[$CellContext`nb]; 
+            NotebookWrite[$CellContext`nb, 
+              Cell[
+               CellGroupData[{
+                 Cell["XXXX", "Section"], 
+                 Cell["XXXX", "Text"], 
+                 Cell["XXXX", "Direction"], 
+                 Cell[
+                  BoxData["XXXX"], "Input"]}, Open]], All]; 
+            SelectionMove[$CellContext`nb, Before, Cell]; 
+            SelectionMove[$CellContext`nb, Next, Cell]; 
+            SelectionMove[$CellContext`nb, All, CellContents]], Delimiter, 
+          "\"Text\"" :> 
+          Module[{$CellContext`nb = ButtonNotebook[]}, 
+            Exploration`MoveCursorAfterCellPosition[$CellContext`nb]; 
+            NotebookWrite[$CellContext`nb, 
+              Cell["XXXX", "Text"], All]; 
+            SelectionMove[$CellContext`nb, All, CellContents]], 
+          "\"Direction\"" :> 
+          Module[{$CellContext`nb = ButtonNotebook[]}, 
+            Exploration`MoveCursorAfterCellPosition[$CellContext`nb]; 
+            NotebookWrite[$CellContext`nb, 
+              Cell["XXXX", "Direction"], All]; 
+            SelectionMove[$CellContext`nb, All, CellContents]], 
+          "\"Further Exploration\"" :> 
+          Module[{$CellContext`nb = ButtonNotebook[]}, 
+            Exploration`MoveCursorAfterCellPosition[$CellContext`nb]; 
+            NotebookWrite[$CellContext`nb, 
+              Cell["XXXX", "FurtherExploration"], All]; 
+            SelectionMove[$CellContext`nb, All, CellContents]]}, Method -> 
+         "Queued", Appearance -> "PopupMenu", FrameMargins -> 2.4], 
+        Initialization :> (Exploration`MoveCursorAfterCellPosition[
+           Pattern[$CellContext`nb, 
+            Blank[]]] := Which[
+           MatchQ[
+            Developer`CellInformation[$CellContext`nb], {
+             Repeated[{
+               BlankSequence[], "CursorPosition" -> "CellBracket", 
+               BlankSequence[]}]}], 
+           SelectionMove[$CellContext`nb, After, Cell], 
+           Developer`CellInformation[$CellContext`nb] =!= $Failed, 
+           Module[{$CellContext`lnkre}, 
+             While[(LinkWrite[$ParentLink, 
+                 
+                 FrontEnd`CellInformation[$CellContext`nb]]; \
+$CellContext`lnkre = LinkRead[$ParentLink]); 
+              And[$CellContext`lnkre =!= $Failed, 
+                Not[
+                 MemberQ[
+                  ReplaceAll["CursorPosition", $CellContext`lnkre], 
+                  "CellBracket"]]], 
+              FrontEndExecute[
+               
+               FrontEnd`SelectionMove[$CellContext`nb, All, Cell, AutoScroll -> 
+                False]]]]; SelectionMove[$CellContext`nb, After, Cell]]), 
+        DynamicModuleValues :> {}], 
+       ItemBox["\"\"", ItemSize -> Fit, StripOnInput -> False], 
+       ButtonBox["\"Sample\"", ButtonFunction :> NotebookOpen[
+          
+          FileNameJoin[{$UserBaseDirectory, "Applications", 
+            "SummerSchoolTemplates", "FrontEnd", "TextResources", 
+            "TopicExplorationExample.nb"}]], Appearance -> Automatic, 
+        Evaluator -> Automatic, Method -> "Queued"]}}, AutoDelete -> False, 
+     GridBoxItemSize -> {
+      "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"]], 
+  "DockedCell"],
+CellLabelAutoDelete->False,
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
+2017)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    StyleData["Title"], FontFamily -> "Source Sans Pro", FontTracking -> -0.8,
+     FontColor -> RGBColor[0.65, 0, 0]], 
+   Cell[
+    StyleData["Abstract", StyleDefinitions -> StyleData["Text"]], FontSize -> 
+    16, FontSlant -> "Italic", FontColor -> GrayLevel[0.4]], 
+   Cell[
+    StyleData["Section"], CellFrame -> False, FontFamily -> "Source Sans Pro",
+     FontTracking -> -0.5, $CellContext`ReturnCreatesNewCell -> 
+    True, $CellContext`DefaultReturnCreatedCellStyle -> "Text"], 
+   Cell[
+    StyleData["FurtherExplorationSection"], 
+    CellMargins -> {{28, Inherited}, {6, 24}}, 
+    CellGroupingRules -> {"SectionGrouping", 30}, DefaultNewCellStyle -> 
+    "FurtherExploration", FontFamily -> "Source Sans Pro Semibold", FontSize -> 
+    22, FontColor -> GrayLevel[0.35]], 
+   Cell[
+    StyleData["FurtherExploration", StyleDefinitions -> StyleData["Text"]], 
+    CellMargins -> {{66, 10}, {5, 5}}, FontSize -> 14, FontWeight -> "Bold", 
+    FontColor -> GrayLevel[0.5], $CellContext`ReturnCreatesNewCell -> True], 
+   Cell[
+    StyleData["AuthorshipSection"], CellMargins -> {{28, Inherited}, {6, 24}},
+     CellGroupingRules -> {"SectionGrouping", 30}, DefaultNewCellStyle -> 
+    "FurtherExploration", FontFamily -> "Source Sans Pro Semibold", FontSize -> 
+    22, FontColor -> GrayLevel[0.35]], 
+   Cell[
+    StyleData["Authorship", StyleDefinitions -> StyleData["Text"]], 
+    CellMargins -> {{66, 10}, {4, 4}}, FontSize -> 14, FontColor -> 
+    GrayLevel[0.5], $CellContext`ReturnCreatesNewCell -> True], 
+   Cell[
+    StyleData["Text"], DefaultNewCellStyle -> 
+    "Direction", $CellContext`ReturnCreatesNewCell -> 
+    True, $CellContext`DefaultReturnCreatedCellStyle -> "Direction"], 
+   Cell[
+    StyleData["Direction", StyleDefinitions -> StyleData["Text"]], 
+    CellDingbat -> 
+    StyleBox["\[FilledSmallSquare]", FontColor -> GrayLevel[0.7]], 
+    CellMargins -> {{78, 10}, {6, 7}}, CellFrameLabelMargins -> 4, 
+    MenuSortingValue -> 10000, MenuCommandKey -> "8", FontSize -> 14, 
+    FontWeight -> "Plain", FontColor -> 
+    GrayLevel[0.4], $CellContext`DefaultReturnCreatedCellStyle -> "Input"], 
+   Cell[
+    StyleData["Code"], MenuCommandKey -> None]}, Visible -> False, 
+  FrontEndVersion -> 
+  "11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, 2017)", 
+  StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 301, 5, 97, "Title", "ExpressionUUID" -> \
+"ea6f7370-3cab-4d25-84b2-b862bcf211d8"],
+Cell[884, 29, 327, 5, 33, "Abstract", "ExpressionUUID" -> \
+"63a5b57f-0546-4e33-a589-6ae6701f580d"],
+Cell[CellGroupData[{
+Cell[1236, 38, 305, 5, 62, "Section", "ExpressionUUID" -> \
+"9307efba-9c00-454b-8213-025f1668690d"],
+Cell[1544, 45, 362, 6, 30, "Text", "ExpressionUUID" -> \
+"15801ee2-6bd6-4295-8ee4-f3b67437d54e"],
+Cell[1909, 53, 584, 10, 48, "Direction", "ExpressionUUID" -> \
+"170bd37b-3220-4e30-ac3b-37c633e2cd52"],
+Cell[CellGroupData[{
+Cell[2518, 67, 686, 12, 54, "Input", "ExpressionUUID" -> \
+"f61c6b6a-bfe1-4e8b-a538-ff0a10226f98"],
+Cell[3207, 81, 175, 2, 32, "Output", "ExpressionUUID" -> \
+"82475bbd-de44-45a0-ad5b-68f2fd830580"]
+}, Open  ]],
+Cell[3397, 86, 146, 3, 30, "Text", "ExpressionUUID" -> \
+"94cfe48d-9e74-4b99-bed4-7ff358046ea9"],
+Cell[3546, 91, 160, 3, 31, "Direction", "ExpressionUUID" -> \
+"a9067e71-e82c-4d66-a2c5-a2a4443f04db"],
+Cell[CellGroupData[{
+Cell[3731, 98, 278, 4, 32, "Input", "ExpressionUUID" -> \
+"b95315fd-d266-4051-8f89-075d9f87c96d"],
+Cell[4012, 104, 226, 3, 32, "Output", "ExpressionUUID" -> \
+"ae80f718-3338-4827-83fa-4c09297c578d"]
+}, Open  ]],
+Cell[4253, 110, 455, 8, 49, "Text", "ExpressionUUID" -> \
+"eb656b6c-f81e-4408-bc9b-549833b2a2cc"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4745, 123, 384, 9, 62, "Section", "ExpressionUUID" -> \
+"f50c1d09-df9e-4283-9b27-a060b6deb922"],
+Cell[5132, 134, 403, 8, 30, "Text", "ExpressionUUID" -> \
+"bc63cf7a-8a2b-44fd-a55d-347228466e47"],
+Cell[5538, 144, 394, 6, 30, "Text", "ExpressionUUID" -> \
+"3eddae3b-8ddb-47c4-a3b6-31b55897154a"],
+Cell[5935, 152, 533, 10, 125, "Text", "ExpressionUUID" -> \
+"459b9d59-5b95-4b83-848c-25dd256fc7f9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6505, 167, 234, 4, 59, "FurtherExplorationSection", "ExpressionUUID" -> \
+"7ef20670-b778-4c88-88d7-81c532754f9f"],
+Cell[6742, 173, 404, 6, 26, "FurtherExploration", "ExpressionUUID" -> \
+"f65c51ba-98e6-43ad-9f45-1adec289b51e"],
+Cell[7149, 181, 381, 7, 26, "FurtherExploration", "ExpressionUUID" -> \
+"b204f7dd-3f75-482b-aeab-711b1cc88367"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7567, 193, 179, 3, 59, "AuthorshipSection", "ExpressionUUID" -> \
+"c80bebae-f63a-4557-92de-312215b6b2a9"],
+Cell[7749, 198, 166, 3, 24, "Authorship", "ExpressionUUID" -> \
+"7c8d0422-e70d-41a8-846b-7130ee07eb45"],
+Cell[7918, 203, 166, 3, 24, "Authorship", "ExpressionUUID" -> \
+"d014e466-a354-4f0b-b7f9-22c7d722436c"],
+Cell[8087, 208, 240, 6, 24, "Authorship", "ExpressionUUID" -> \
+"5fe63f23-a9be-451f-8a07-0c7c4cb72af8"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
