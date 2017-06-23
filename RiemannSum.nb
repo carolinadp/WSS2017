@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    186958,       3555]
-NotebookOptionsPosition[    175802,       3306]
-NotebookOutlinePosition[    182140,       3447]
-CellTagsIndexPosition[    182097,       3444]
+NotebookDataLength[    220336,       4626]
+NotebookOptionsPosition[    209180,       4377]
+NotebookOutlinePosition[    215518,       4518]
+CellTagsIndexPosition[    215475,       4515]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -108,7 +108,7 @@ Cell[BoxData[{
   3.707141638384536*^9, 3.707141647055833*^9}, {3.707142287385996*^9, 
   3.70714234608395*^9}, {3.7071423894057283`*^9, 3.707142390661181*^9}, {
   3.707215446090373*^9, 3.707215529197278*^9}},
- CellLabel->"In[1]:=",ExpressionUUID->"f61c6b6a-bfe1-4e8b-a538-ff0a10226f98"],
+ CellLabel->"In[42]:=",ExpressionUUID->"f61c6b6a-bfe1-4e8b-a538-ff0a10226f98"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -231,7 +231,7 @@ fipwj82M5Q17ac9z/mcacTjFfHpRm0dsYyLFucNG/qItubjKKobSjIrcZwvj
 wDkW04/6lCYfCUlEYpKQlGQkJwUpSUVq0pCWdPzML/xKejJwniX0pwFlyM8N
 1jKCllThAVsZT0desJPpfOBg4Ps/kFG/AjDpgUI=
              "]]},
-           Annotation[#, "Charting`Private`Tag$2867#1"]& ]}}], {}, {}},
+           Annotation[#, "Charting`Private`Tag$15970#1"]& ]}}], {}, {}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{True, True},
       AxesLabel->{None, None},
@@ -279,8 +279,9 @@ wDkW04/6lCYfCUlEYpKQlGQkJwUpSUVq0pCWdPzML/xKejJwniX0pwFlyM8N
    3.707132531661426*^9, {3.7071326021073027`*^9, 3.707132616786364*^9}, 
    3.707134917070848*^9, 3.7071416476349773`*^9, 3.707142339737783*^9, 
    3.707142393470945*^9, {3.707215498421301*^9, 3.707215532592619*^9}, 
-   3.707218982869788*^9},
- CellLabel->"Out[2]=",ExpressionUUID->"63823a5a-cf49-4219-aaaa-18b8e8ec5eb6"]
+   3.707218982869788*^9, 3.707241746021562*^9, 3.707243695480968*^9, 
+   3.7072438857759438`*^9},
+ CellLabel->"Out[43]=",ExpressionUUID->"930d572c-2ee9-4437-813c-5ae354da2a81"]
 }, Open  ]],
 
 Cell["\<\
@@ -350,8 +351,9 @@ Cell[BoxData[{
         RowBox[{
          RowBox[{"EdgeForm", "[", 
           RowBox[{"{", 
-           RowBox[{"Thick", ",", " ", "Black"}], "}"}], "]"}], ",", "\n", 
-         "\t\t", "Red", ",", "\n", "\t\t", 
+           RowBox[{
+            RowBox[{"Thickness", "[", "Medium", "]"}], ",", " ", "Black"}], 
+           "}"}], "]"}], ",", "\n", "\t\t", "Red", ",", "\n", "\t\t", 
          RowBox[{"Polygon", "[", "#", "]"}]}], "\[IndentingNewLine]", "}"}], 
        "]"}], "&"}], ",", "\[IndentingNewLine]", "rectCoord"}], 
     "\[IndentingNewLine]", "]"}]}], ";"}], "\[IndentingNewLine]", 
@@ -406,8 +408,10 @@ Cell[BoxData[{
    3.707136270940762*^9, 3.707136360513914*^9}, {3.7071363976996*^9, 
    3.7071364330973883`*^9}, {3.707136496509082*^9, 3.70713663677635*^9}, 
    3.707137315383526*^9, {3.7071415768481417`*^9, 3.707141577525784*^9}, {
-   3.707141657894085*^9, 3.70714166662326*^9}, 3.7071423838703737`*^9},
- CellLabel->"In[3]:=",ExpressionUUID->"b95315fd-d266-4051-8f89-075d9f87c96d"],
+   3.707141657894085*^9, 3.70714166662326*^9}, 3.7071423838703737`*^9, {
+   3.7072423029021072`*^9, 3.707242311116892*^9}, {3.707242341545765*^9, 
+   3.7072424049028597`*^9}},
+ CellLabel->"In[37]:=",ExpressionUUID->"b95315fd-d266-4051-8f89-075d9f87c96d"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -530,11 +534,11 @@ fipwj82M5Q17ac9z/mcacTjFfHpRm0dsYyLFucNG/qItubjKKobSjIrcZwvj
 wDkW04/6lCYfCUlEYpKQlGQkJwUpSUVq0pCWdPzML/xKejJwniX0pwFlyM8N
 1jKCllThAVsZT0desJPpfOBg4Ps/kFG/AjDpgUI=
               "]]},
-            Annotation[#, "Charting`Private`Tag$3019#1"]& ]}}], {}, {}}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
+            Annotation[#, "Charting`Private`Tag$15845#1"]& ]}}], {}, {}}, 
+       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Medium]}], 
         PolygonBox[{{0.5, 0}, {2.641592653589793, 0}, {2.641592653589793, 
           0.479425538604203}, {0.5, 0.479425538604203}}]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
+       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Medium]}], 
         PolygonBox[
          NCache[{{1., 
            0.479425538604203}, {-1 + Pi, 0.479425538604203}, {-1 + Pi, Sin[
@@ -658,7 +662,7 @@ fipwj82M5Q17ac9z/mcacTjFfHpRm0dsYyLFucNG/qItubjKKobSjIrcZwvj
 wDkW04/6lCYfCUlEYpKQlGQkJwUpSUVq0pCWdPzML/xKejJwniX0pwFlyM8N
 1jKCllThAVsZT0desJPpfOBg4Ps/kFG/AjDpgUI=
               "]]},
-            Annotation[#, "Charting`Private`Tag$3061#1"]& ]}}], {}, {}}},
+            Annotation[#, "Charting`Private`Tag$15887#1"]& ]}}], {}, {}}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{True, True},
       AxesLabel->{None, None},
@@ -711,8 +715,10 @@ wDkW04/6lCYfCUlEYpKQlGQkJwUpSUVq0pCWdPzML/xKejJwniX0pwFlyM8N
    3.707136361681395*^9, {3.707136399925851*^9, 3.707136415125019*^9}, {
    3.707136617369259*^9, 3.707136637411642*^9}, 3.707137209981935*^9, 
    3.707137323513773*^9, 3.707141588603567*^9, 3.7071416672324266`*^9, 
-   3.70721549908527*^9, 3.707215776648322*^9, 3.707218983338171*^9},
- CellLabel->"Out[7]=",ExpressionUUID->"1b8c51a5-f7f3-4472-91e6-cdcd26932caa"]
+   3.70721549908527*^9, 3.707215776648322*^9, 3.707218983338171*^9, 
+   3.707241746565957*^9, {3.707242339369285*^9, 3.707242405597843*^9}, 
+   3.707243695942478*^9, 3.7072438837466297`*^9},
+ CellLabel->"Out[41]=",ExpressionUUID->"b25d32a8-06f8-4392-a3be-9cde67c81317"]
 }, Open  ]],
 
 Cell["\<\
@@ -760,8 +766,10 @@ Cell[BoxData[{
         RowBox[{
          RowBox[{"EdgeForm", "[", 
           RowBox[{"{", 
-           RowBox[{"Thick", ",", " ", "Black"}], "}"}], "]"}], ",", 
-         "\[IndentingNewLine]", "\t", "Red", ",", "\[IndentingNewLine]", "\t", 
+           RowBox[{
+            RowBox[{"Thickness", "[", "Medium", "]"}], ",", " ", "Black"}], 
+           "}"}], "]"}], ",", "\[IndentingNewLine]", "\t", "Red", ",", 
+         "\[IndentingNewLine]", "\t", 
          RowBox[{"Polygon", "[", 
           RowBox[{"{", 
            RowBox[{
@@ -844,8 +852,8 @@ Cell[BoxData[{
    3.707215788297332*^9, 3.70721578943414*^9}, {3.707217948084381*^9, 
    3.707217949623396*^9}, {3.7072180577931833`*^9, 3.7072180729740667`*^9}, {
    3.707218107124569*^9, 3.707218118685699*^9}, {3.707218160009836*^9, 
-   3.707218181827202*^9}},
- CellLabel->"In[8]:=",ExpressionUUID->"dfb76cf7-6e18-4e55-aad5-faa24a102c41"],
+   3.707218181827202*^9}, {3.7072427369017687`*^9, 3.7072427439068832`*^9}},
+ CellLabel->"In[33]:=",ExpressionUUID->"dfb76cf7-6e18-4e55-aad5-faa24a102c41"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -968,21 +976,21 @@ fipwj82M5Q17ac9z/mcacTjFfHpRm0dsYyLFucNG/qItubjKKobSjIrcZwvj
 wDkW04/6lCYfCUlEYpKQlGQkJwUpSUVq0pCWdPzML/xKejJwniX0pwFlyM8N
 1jKCllThAVsZT0desJPpfOBg4Ps/kFG/AjDpgUI=
               "]]},
-            Annotation[#, "Charting`Private`Tag$3103#1"]& ]}}], {}, {}}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
+            Annotation[#, "Charting`Private`Tag$15735#1"]& ]}}], {}, {}}, 
+       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Medium]}], 
         PolygonBox[{{0, 0}, {0.6, 0}, {0.6, 0}, {0, 0}}]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
+       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Medium]}], 
         PolygonBox[{{0.6, 0}, {1, 0}, {1, 0.5646424733950354}, {0.6, 
           0.5646424733950354}}]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
+       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Medium]}], 
         PolygonBox[
          NCache[{{1, 0}, {2, 0}, {2, Sin[1]}, {1, Sin[1]}}, {{1, 0}, {2, 0}, {
            2, 0.8414709848078965}, {1, 0.8414709848078965}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
+       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Medium]}], 
         PolygonBox[
          NCache[{{2, 0}, {2.4, 0}, {2.4, Sin[2]}, {2, Sin[2]}}, {{2, 0}, {
            2.4, 0}, {2.4, 0.9092974268256817}, {2, 0.9092974268256817}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
+       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Medium]}], 
         PolygonBox[{{2.4, 0}, {3, 0}, {3, 0.675463180551151}, {2.4, 
           0.675463180551151}}]}, {GraphicsComplexBox[CompressedData["
 1:eJw9WHk4VW33NlQOpTJVQoNmiaRI6D68laJMlQYRiiRlKhpEg1SUkCQZKkWE
@@ -1102,7 +1110,7 @@ fipwj82M5Q17ac9z/mcacTjFfHpRm0dsYyLFucNG/qItubjKKobSjIrcZwvj
 wDkW04/6lCYfCUlEYpKQlGQkJwUpSUVq0pCWdPzML/xKejJwniX0pwFlyM8N
 1jKCllThAVsZT0desJPpfOBg4Ps/kFG/AjDpgUI=
               "]]},
-            Annotation[#, "Charting`Private`Tag$3145#1"]& ]}}], {}, {}}},
+            Annotation[#, "Charting`Private`Tag$15777#1"]& ]}}], {}, {}}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{True, True},
       AxesLabel->{None, None},
@@ -1157,8 +1165,10 @@ wDkW04/6lCYfCUlEYpKQlGQkJwUpSUVq0pCWdPzML/xKejJwniX0pwFlyM8N
    3.707137321445134*^9, 3.707137326591975*^9}, 3.707141994375903*^9, 
    3.707215499255769*^9, {3.707215781903798*^9, 3.7072157901511374`*^9}, {
    3.707217933058131*^9, 3.707217950237064*^9}, {3.7072181196435223`*^9, 
-   3.707218123349145*^9}, 3.707218185981411*^9, 3.70721898342376*^9},
- CellLabel->"Out[11]=",ExpressionUUID->"46d8832b-a93f-472c-a3d0-3ffd098f7f75"]
+   3.707218123349145*^9}, 3.707218185981411*^9, 3.70721898342376*^9, 
+   3.707241746675129*^9, 3.707242744388665*^9, 3.70724369602745*^9, 
+   3.7072438817576647`*^9},
+ CellLabel->"Out[36]=",ExpressionUUID->"4026e5f8-8378-438a-939b-13cd6ecde866"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -1210,54 +1220,60 @@ Cell[BoxData[
     RowBox[{"riemannArea", " ", "[", 
      RowBox[{
      "function_", ",", " ", "start_", ",", " ", "end_", ",", " ", 
-      "rectWidth_", ",", " ", 
+      "rectNumber_", ",", " ", 
       RowBox[{"type_String:", "\"\<Left\>\""}]}], "]"}], ":=", " ", 
     RowBox[{"Plus", " ", "@@", "\[NonBreakingSpace]", 
      RowBox[{"Table", " ", "[", "\n", "\t", 
       RowBox[{
-       RowBox[{"rectWidth", " ", "*", " ", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"end", " ", "-", " ", "start"}], ")"}], " ", "/", " ", 
+         "rectNumber"}], " ", "*", " ", 
         RowBox[{"Switch", "[", "\[IndentingNewLine]", "\t\t", 
          RowBox[{
          "type", ",", "\[IndentingNewLine]", "\t\t", "\"\<Left\>\"", ",", 
           "\[IndentingNewLine]", "\t\t", 
+          RowBox[{"function", "[", "x", "]"}], ",", "\[IndentingNewLine]", 
+          "\t\t", "\"\<Right\>\"", ",", "\[IndentingNewLine]", "\t\t", 
           RowBox[{"function", "[", 
-           RowBox[{
-            RowBox[{"(", 
-             RowBox[{"x", " ", "-", " ", "1"}], ")"}], " ", "*", " ", 
-            "rectWidth"}], "]"}], ",", "\[IndentingNewLine]", "\t\t", 
-          "\"\<Right\>\"", ",", "\[IndentingNewLine]", "\t\t", 
-          RowBox[{"function", " ", "@", " ", 
-           RowBox[{"Min", "[", 
+           RowBox[{"x", " ", "+", " ", 
             RowBox[{
-             RowBox[{"xStart", " ", "+", " ", "rectWidth"}], ",", "end"}], 
-            "]"}]}], ",", "\[IndentingNewLine]", "\t\t", "\"\<Mean\>\"", ",", 
-          "\[IndentingNewLine]", "\t\t", 
+             RowBox[{"(", 
+              RowBox[{"end", " ", "-", " ", "start"}], ")"}], " ", "/", " ", 
+             "rectNumber"}]}], "]"}], ",", "\[IndentingNewLine]", "\t\t", 
+          "\"\<Mean\>\"", ",", "\[IndentingNewLine]", "\t\t", 
           RowBox[{
            RowBox[{"(", 
             RowBox[{
+             RowBox[{"function", "[", "x", "]"}], " ", "+", " ", 
              RowBox[{"function", "[", 
-              RowBox[{
-               RowBox[{"(", 
-                RowBox[{"x", " ", "-", " ", "1"}], ")"}], " ", "*", " ", 
-               "rectWidth"}], "]"}], " ", "+", " ", 
-             RowBox[{"function", " ", "@", " ", 
-              RowBox[{"Min", "[", 
+              RowBox[{"x", " ", "+", " ", 
                RowBox[{
-                RowBox[{"xStart", " ", "+", " ", "rectWidth"}], ",", "end"}], 
-               "]"}]}]}], ")"}], " ", "/", " ", "2.0"}]}], 
-         "\[IndentingNewLine]", "\t", "]"}]}], ",", "\[IndentingNewLine]", 
-       "\t", 
+                RowBox[{"(", 
+                 RowBox[{"end", " ", "-", " ", "start"}], ")"}], " ", "/", 
+                " ", "rectNumber"}]}], "]"}]}], ")"}], " ", "/", " ", 
+           "2.0"}]}], "\[IndentingNewLine]", "\t", "]"}]}], ",", 
+       "\[IndentingNewLine]", "\t", 
        RowBox[{"{", 
-        RowBox[{"x", ",", " ", "1", ",", " ", 
-         RowBox[{"Ceiling", "[", 
+        RowBox[{"x", ",", " ", "start", ",", " ", 
+         RowBox[{"end", " ", "-", " ", 
           RowBox[{
            RowBox[{"(", 
-            RowBox[{"end", "-", "start"}], ")"}], "/", "rectWidth"}], "]"}]}],
-         "}"}]}], "\[IndentingNewLine]", "]"}]}]}], ";"}]}]], "Code",
+            RowBox[{"end", " ", "-", " ", "start"}], ")"}], " ", "/", " ", 
+           "rectNumber"}]}], ",", " ", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"end", " ", "-", " ", "start"}], ")"}], " ", "/", " ", 
+          "rectNumber"}]}], "}"}]}], "\[IndentingNewLine]", "]"}]}]}], 
+   ";"}]}]], "Code",
  CellChangeTimes->{
   3.7071426488912363`*^9, {3.707218218862589*^9, 3.707218287345887*^9}, {
-   3.7072183307564774`*^9, 3.707218410548603*^9}},
- CellLabel->"In[12]:=",ExpressionUUID->"229fa9af-5c81-4275-b718-c6ef8e0cd6ed"],
+   3.7072183307564774`*^9, 3.707218410548603*^9}, {3.707242802685504*^9, 
+   3.707242803476877*^9}, {3.707242846503901*^9, 3.707242985829186*^9}, {
+   3.707243018067834*^9, 3.707243042310541*^9}, {3.7072438214103813`*^9, 
+   3.707243837072103*^9}},
+ CellLabel->"In[21]:=",ExpressionUUID->"229fa9af-5c81-4275-b718-c6ef8e0cd6ed"],
 
 Cell[BoxData[
  RowBox[{
@@ -1270,95 +1286,78 @@ Cell[BoxData[
     RowBox[{"riemannGraphic", "[", 
      RowBox[{
      "function_", ",", " ", "start_", ",", " ", "end_", ",", " ", 
-      "rectWidth_", ",", " ", 
-      RowBox[{"type_String:", "\"\<Left\>\""}]}], "]"}], " ", ":=", " ", 
-    RowBox[{"Module", "[", "\n", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{"bars", ",", " ", "plot"}], "}"}], ",", "\n", "\t", 
+      "rectNumber_Integer", ",", " ", 
+      RowBox[{"type_String:", "\"\<Left\>\""}]}], "]"}], " ", ":=", " ", "\n", 
+    RowBox[{"Show", "[", 
+     RowBox[{"{", "\n", "\t", 
       RowBox[{
-       RowBox[{"bars", " ", "=", " ", 
-        RowBox[{"Table", "[", "\[IndentingNewLine]", "\t\t", 
-         RowBox[{
-          RowBox[{"Module", "[", 
-           RowBox[{
-            RowBox[{"{", 
-             RowBox[{"xStart", ",", " ", "xEnd", ",", " ", "yCurrent"}], 
-             "}"}], ",", "\[IndentingNewLine]", "\t\t", 
+       RowBox[{"RectangleChart", "[", " ", "\n", "\t\t", 
+        RowBox[{
+         RowBox[{"Table", "[", "\n", "\t\t\t", 
+          RowBox[{
+           RowBox[{"{", "\n", "\t\t\t\t", 
             RowBox[{
-             RowBox[{"xStart", " ", "=", " ", 
-              RowBox[{"start", " ", "+", " ", 
-               RowBox[{"(", 
-                RowBox[{"rectWidth", " ", "*", " ", 
-                 RowBox[{"(", 
-                  RowBox[{"x", " ", "-", " ", "1"}], ")"}]}], ")"}]}]}], ";", 
-             "\n", "\t\t\t", 
-             RowBox[{"xEnd", " ", "=", " ", 
-              RowBox[{"Min", "[", 
-               RowBox[{
-                RowBox[{"xStart", " ", "+", " ", "rectWidth"}], ",", " ", 
-                "end"}], "]"}]}], ";", " ", "\n", "\t\t\t", 
-             RowBox[{"yCurrent", " ", "=", " ", 
-              RowBox[{"Switch", "[", "\[IndentingNewLine]", "\t\t", 
-               RowBox[{
-               "type", ",", "\[IndentingNewLine]", "\t\t", "\"\<Left\>\"", 
-                ",", "\[IndentingNewLine]", "\t\t", 
-                RowBox[{"function", "[", "xStart", "]"}], ",", 
-                "\[IndentingNewLine]", "\t\t", "\"\<Right\>\"", ",", 
-                "\[IndentingNewLine]", "\t\t", 
-                RowBox[{"function", "[", "xEnd", "]"}], ",", 
-                "\[IndentingNewLine]", "\t\t", "\"\<Mean\>\"", ",", 
-                "\[IndentingNewLine]", "\t\t", 
-                RowBox[{
-                 RowBox[{"(", 
-                  RowBox[{
-                   RowBox[{"function", "[", "xStart", "]"}], " ", "+", " ", 
-                   RowBox[{"function", "[", "xEnd", "]"}]}], ")"}], " ", "/", 
-                 " ", "2.0"}]}], "\[IndentingNewLine]", "\t ", "]"}]}], ";", 
-             "\n", "\t\t\t", 
-             RowBox[{"Graphics", "[", 
-              RowBox[{"{", "\n", "\t\t\t\t", 
-               RowBox[{
-                RowBox[{"EdgeForm", "[", 
-                 RowBox[{"{", 
-                  RowBox[{"Thick", ",", " ", "Black"}], "}"}], "]"}], ",", 
-                "\n", "\t\t\t\t", "Red", ",", "\n", "\t\t\t\t", 
-                RowBox[{"Polygon", "[", 
-                 RowBox[{"{", 
-                  RowBox[{
-                   RowBox[{"{", 
-                    RowBox[{"xStart", ",", " ", "0"}], "}"}], ",", " ", 
-                   RowBox[{"{", 
-                    RowBox[{"xStart", ",", " ", "yCurrent"}], "}"}], ",", " ", 
-                   RowBox[{"{", 
-                    RowBox[{"xEnd", ",", " ", "yCurrent"}], "}"}], ",", " ", 
-                   RowBox[{"{", 
-                    RowBox[{"xEnd", ",", " ", "0"}], "}"}]}], "}"}], "]"}]}], 
-               "\n", "\t\t\t", "}"}], "]"}]}]}], "\[IndentingNewLine]", 
-           "\t\t", "]"}], ",", "\n", "\t\t", 
-          RowBox[{"{", 
-           RowBox[{"x", ",", " ", "1", ",", " ", 
-            RowBox[{"Ceiling", "[", 
              RowBox[{
               RowBox[{"(", 
-               RowBox[{"end", "-", "start"}], ")"}], "/", "rectWidth"}], 
-             "]"}]}], "}"}]}], "\n", "\t", "]"}]}], ";", "\n", "\t", 
-       RowBox[{"plot", " ", "=", " ", 
-        RowBox[{"Plot", "[", 
-         RowBox[{
-          RowBox[{"function", "[", "x", "]"}], ",", " ", 
-          RowBox[{"{", 
-           RowBox[{"x", ",", " ", "start", ",", " ", "end"}], "}"}], ",", " ", 
-          RowBox[{"Filling", "\[Rule]", "Axis"}], ",", " ", 
-          RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]}], ";", "\n", 
-       "\t", 
-       RowBox[{"Show", " ", "@", "\[NonBreakingSpace]", 
-        RowBox[{"Flatten", "[", 
+               RowBox[{"end", " ", "-", " ", "start"}], ")"}], " ", "/", " ", 
+              "rectNumber"}], ",", "\n", "\t\t\t\t", 
+             RowBox[{"Switch", "[", "\n", "\t\t\t\t\t", 
+              RowBox[{
+              "type", ",", "\n", "\t\t\t\t\t", "\"\<Left\>\"", ",", "\n", 
+               "\t\t\t\t\t", 
+               RowBox[{"function", "[", "x", "]"}], ",", "\n", "\t\t\t\t\t", 
+               "\"\<Right\>\"", ",", "\n", "\t\t\t\t\t", 
+               RowBox[{"function", "[", 
+                RowBox[{"x", " ", "+", " ", 
+                 RowBox[{
+                  RowBox[{"(", 
+                   RowBox[{"end", " ", "-", " ", "start"}], ")"}], " ", "/", 
+                  " ", "rectNumber"}]}], "]"}], ",", "\n", "\t\t\t\t\t", 
+               "\"\<Mean\>\"", ",", "\n", "\t\t\t\t\t", 
+               RowBox[{
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"function", "[", "x", "]"}], " ", "+", " ", 
+                  RowBox[{"function", "[", 
+                   RowBox[{"x", " ", "+", " ", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"end", " ", "-", " ", "start"}], ")"}], " ", "/", 
+                    " ", "rectNumber"}]}], "]"}]}], ")"}], " ", "/", " ", 
+                "2.0"}]}], "\n", "\t\t\t\t", "]"}]}], "\n", "\t\t\t", "}"}], 
+           ",", "\n", "\t\t\t", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", " ", "start", ",", " ", 
+             RowBox[{"end", " ", "-", " ", 
+              RowBox[{
+               RowBox[{"(", 
+                RowBox[{"end", " ", "-", " ", "start"}], ")"}], " ", "/", " ",
+                "rectNumber"}]}], ",", " ", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{"end", " ", "-", " ", "start"}], ")"}], " ", "/", " ", 
+              "rectNumber"}]}], "}"}]}], "\n", "\t\t", "]"}], ",", "\n", 
+         "\t\t", 
+         RowBox[{"BarSpacing", "\[Rule]", "None"}], ",", "\n", "\t\t", 
+         RowBox[{"ChartStyle", "\[Rule]", "Red"}], ",", "\n", "\t\t", 
+         RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "\n", "\t", "]"}], ",",
+        "\n", "\t", 
+       RowBox[{"Plot", "[", 
+        RowBox[{
+         RowBox[{"function", "[", "x", "]"}], ",", " ", 
          RowBox[{"{", 
-          RowBox[{"plot", ",", " ", "bars", ",", " ", "plot"}], "}"}], 
-         "]"}]}]}]}], "\n", "]"}]}], ";"}]}]], "Code",
+          RowBox[{"x", ",", " ", "start", ",", " ", "end"}], "}"}], ",", " ", 
+         
+         RowBox[{"Filling", "\[Rule]", "Axis"}], ",", " ", 
+         RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]}], "\n", "}"}], 
+     "]"}]}], ";"}]}]], "Code",
  CellChangeTimes->{
-  3.707142677249599*^9, {3.707216487052155*^9, 3.707216487766943*^9}},
+  3.707142677249599*^9, {3.707216487052155*^9, 3.707216487766943*^9}, {
+   3.707241524017631*^9, 3.707241760017385*^9}, {3.707242192646675*^9, 
+   3.707242236482181*^9}, {3.707242525777234*^9, 3.707242530697123*^9}, {
+   3.707242564647674*^9, 3.707242568726069*^9}, {3.707242599533888*^9, 
+   3.707242603519075*^9}, {3.707242640579665*^9, 3.707242684062521*^9}, {
+   3.707243055265278*^9, 3.7072431128607893`*^9}},
  CellLabel->"In[13]:=",ExpressionUUID->"71147497-c669-4a9c-8e3d-cc243415fa11"],
 
 Cell["Covering the curve with rectangles of the same width ", "Direction",
@@ -1372,16 +1371,15 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"rectArea", " ", "=", " ", 
    RowBox[{"riemannArea", "[", 
-    RowBox[{"Sin", ",", " ", "0", ",", " ", "Pi", ",", " ", 
-     RowBox[{"Pi", "/", "5"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+    RowBox[{"Sin", ",", " ", "0", ",", " ", "Pi", ",", " ", "5"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
  RowBox[{"Grid", "[", 
   RowBox[{"{", "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"{", 
      RowBox[{"riemannGraphic", "[", 
-      RowBox[{"Sin", ",", " ", "0", ",", " ", "Pi", ",", " ", 
-       RowBox[{"Pi", " ", "/", " ", "5"}]}], "]"}], "}"}], ",", 
-    "\[IndentingNewLine]", 
+      RowBox[{"Sin", ",", " ", "0", ",", " ", "Pi", ",", " ", "5"}], "]"}], 
+     "}"}], ",", "\[IndentingNewLine]", 
     RowBox[{"{", 
      RowBox[{"\"\<Rectangle area \>\"", " ", "<>", " ", 
       RowBox[{"ToString", "[", 
@@ -1415,182 +1413,205 @@ Cell[BoxData[{
    3.707140483958207*^9, 3.707141961070527*^9, {3.7071425128819647`*^9, 
    3.707142551320716*^9}, {3.707142625615963*^9, 3.707142626754198*^9}, {
    3.7071426601671343`*^9, 3.707142661611217*^9}, {3.707216442527966*^9, 
-   3.7072164713628817`*^9}},
- CellLabel->"In[14]:=",ExpressionUUID->"9556ebe2-849e-461f-b563-89304ac3726f"],
+   3.7072164713628817`*^9}, 3.707242571771883*^9, {3.707243118236899*^9, 
+   3.707243120981707*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"9556ebe2-849e-461f-b563-89304ac3726f"],
 
 Cell[BoxData[
  TagBox[GridBox[{
     {
-     GraphicsBox[{{GraphicsComplexBox[CompressedData["
-1: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
-zZZkSwsLl75Is8L//y/47/O/76X/4f8AhceBrQ==
-         "], {{{}, 
-           {RGBColor[0.368417, 0.506779, 0.709798], Opacity[0.2], EdgeForm[
-            None], GraphicsGroupBox[PolygonBox[CompressedData["
-1:eJwl0VWQEAQQgOFLuqQEpI5uREIJAUG6j5COA6TvpEulJEVJlQalW7q7U+lG
-6e4u5bu5h2/+ndnZpw2LiAqPDAoICAgkNDCmIYEx8yfmYD2ob5jKTp7Qg1/Y
-yB2+IpKfWMkVSlOd1vzAQs5SgI/JTz7ykofc5CInOchONrKShcxkIoyMZKAU
-1WjFIBZwhvSUpCotGch8TpOOenRiJCu4zOdUIYIBzOMUaalLR35kOZcoQWVa
-0J+5nOQjujOeDdymDh0YwTL+pThdGMNablCJ39jMPZrTjzmcIA1T2MFjurGX
-F4xjPbeozX5eMZH/2MoD2gfEPHy3PGM4b/mTfyhGkP0Bfc0k/mcbD+kcfW6/
-R58zmnes4ToV2cdLfmUTd2nGLp7yPbM5Tmoms51HdGUs67hJOBPYwn3aMYyl
-XKQo3zCK1VyjAk35jlkcIxW1aMtQlnCBz4jiZ1ZxlfI04VtmcpQPqUkbhrCY
-83xKORrTlz84Qkpq8DWDWcQ5ivAljejD7/xNCgpTlob0ZgZ/kZxClKEBvZjO
-YZKRlA9IQmISkZAExCcecYlDbGIRSgjB0f+mIF9Qn55M4xDvAXP7gVE=
-              
-              "]]]}, {}, {}}, {{}, {}, 
+     GraphicsBox[{{
+        {Opacity[0], 
+         PointBox[{{-0.06283185307179587, 0.}, {3.141592653589793, 
+          0.}}]}, {{}, 
+         {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+          0.6649999999999999], Thickness[Small]}], 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.6649999999999999], 
+           Thickness[Small]}], 
            TagBox[
-            {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[1.6], 
-             Opacity[1.], LineBox[CompressedData["
-1:eJwl1FP8F1YYwOFfbhlr2ca2bGt5mVu2bdu17Fq2XWurZdu2bT//unjO9+I9
-d+/5nMR1W5VvGSwQCIRwBPUQM+hEVQqQieBBdwhJKEIThrD8QDjCE4GIRCIy
-UYhKNKJzmJl0phoFycyPHGEWXahOIbIQg6P8TVdqUJisXGApA2jI7/zEMWbT
-jT8oQjYusoyBNKIsMTnOHLrzJ0W5yTpG0orsXGI5g2hMOWJxgrn0oCa/cYv1
-jKI1ObjMCgbThMf8yyTKc5dNjKEdz9jBVGJzknn05CW7qMVD/mECb9lHMW6z
-gU+M5jV7CGbZbfQp2/nCFN5zIGjf5jn1Civ5yBBesTsQ+PZYmsoT/uMzk3nH
-fipwj82M5Q17ac9z/mcacTjFfHpRm0dsYyLFucNG/qItubjKKobSjIrcZwvj
-6EBcTrOA3tShBLm5xmqG0ZxKxOMMC+lDXUqSh+usYTgtqEx8zrKIvtSjFHlJ
-wDkW04/6lCYfCUlEYpKQlGQkJwUpSUVq0pCWdPzML/xKejJwniX0pwFlyM8N
-1jKCllThAVsZT0desJPpfOBg4Ps/kFG/AjDpgUI=
-              "]]},
-            Annotation[#, "Charting`Private`Tag$3193#1"]& ]}}], {}, {}}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{0, 0}, {0, 0}, {Rational[1, 5] Pi, 0}, {
-           Rational[1, 5] Pi, 0}}, {{0, 0}, {0, 0}, {0.6283185307179586, 0}, {
-           0.6283185307179586, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[1, 5] Pi, 0}, {
-           Rational[1, 5] 
-            Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-           Rational[2, 5] 
-            Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {Rational[2, 5] Pi, 0}}, {{
-           0.6283185307179586, 0}, {0.6283185307179586, 0.5877852522924731}, {
-           1.2566370614359172`, 0.5877852522924731}, {
-           1.2566370614359172`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[2, 5] Pi, 0}, {
-           Rational[2, 5] 
-            Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-           Rational[3, 5] 
-            Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {Rational[3, 5] Pi, 0}}, {{
-           1.2566370614359172`, 0}, {1.2566370614359172`, 
-           0.9510565162951535}, {1.8849555921538759`, 0.9510565162951535}, {
-           1.8849555921538759`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[3, 5] Pi, 0}, {
-           Rational[3, 5] 
-            Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-           Rational[4, 5] 
-            Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {Rational[4, 5] Pi, 0}}, {{
-           1.8849555921538759`, 0}, {1.8849555921538759`, 
-           0.9510565162951535}, {2.5132741228718345`, 0.9510565162951535}, {
-           2.5132741228718345`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[4, 5] Pi, 0}, {
-           Rational[4, 5] 
-            Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-           Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {Pi, 0}}, {{2.5132741228718345`, 0}, {
-           2.5132741228718345`, 0.5877852522924731}, {3.141592653589793, 
-           0.5877852522924731}, {3.141592653589793, 0}}]]}, {
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0., 0.}, {0.6283185307179586, 0.}, 
+                 "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{23.309423769507802`, 89.40366146458584}, {
+                94.30860715808909, 94.80860715808909}}],
+              StatusArea[#, {Rational[1, 5] Pi, 0}]& ,
+              TagBoxNote->"{Pi/5, 0}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "5"], ",", "0"}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 5] Pi, 0}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.6649999999999999], 
+           Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.6283185307179586, 0.}, {1.2566370614359172`, 
+                 0.5877852522924731}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{88.90366146458584, 
+                154.99789915966386`}, {-23.41908719240601, 
+                94.80860715808909}}],
+              StatusArea[#, {
+               Rational[1, 5] 
+                Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+                Rational[1, 2]}]& ,
+              TagBoxNote->"{Pi/5, Sqrt[5/8 - Sqrt[5]/8]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "5"], ",", 
+                  SqrtBox[
+                   RowBox[{
+                    FractionBox["5", "8"], "-", 
+                    FractionBox[
+                    SqrtBox["5"], "8"]}]]}], "}"}], {}, StripOnInput -> 
+              False]],
+            Annotation[#, 
+             
+             Style[{Rational[1, 5] 
+               Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+               Rational[1, 2]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.6649999999999999], 
+           Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.2566370614359172`, 0.}, {1.8849555921538759`, 
+                 0.9510565162951535}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{154.49789915966386`, 
+                220.5921368547419}, {-96.17880371817095, 94.80860715808909}}],
+              
+              
+              StatusArea[#, {
+               Rational[1, 5] 
+                Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+                Rational[1, 2]}]& ,
+              TagBoxNote->"{Pi/5, Sqrt[5/8 + Sqrt[5]/8]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "5"], ",", 
+                  SqrtBox[
+                   RowBox[{
+                    FractionBox["5", "8"], "+", 
+                    FractionBox[
+                    SqrtBox["5"], "8"]}]]}], "}"}], {}, StripOnInput -> 
+              False]],
+            Annotation[#, 
+             
+             Style[{Rational[1, 5] 
+               Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+               Rational[1, 2]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.6649999999999999], 
+           Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.8849555921538759`, 0.}, {2.5132741228718345`, 
+                 0.9510565162951535}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{220.0921368547419, 
+                286.18637454981996`}, {-96.17880371817095, 
+                94.80860715808909}}],
+              
+              StatusArea[#, {
+               Rational[1, 5] 
+                Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+                Rational[1, 2]}]& ,
+              TagBoxNote->"{Pi/5, Sqrt[5/8 + Sqrt[5]/8]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "5"], ",", 
+                  SqrtBox[
+                   RowBox[{
+                    FractionBox["5", "8"], "+", 
+                    FractionBox[
+                    SqrtBox["5"], "8"]}]]}], "}"}], {}, StripOnInput -> 
+              False]],
+            Annotation[#, 
+             
+             Style[{Rational[1, 5] 
+               Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+               Rational[1, 2]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.6649999999999999], 
+           Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.5132741228718345`, 0.}, {3.141592653589793, 
+                 0.5877852522924731}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{285.68637454981996`, 
+                351.780612244898}, {-23.41908719240601, 94.80860715808909}}],
+              
+              StatusArea[#, {
+               Rational[1, 5] 
+                Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+                Rational[1, 2]}]& ,
+              TagBoxNote->"{Pi/5, Sqrt[5/8 - Sqrt[5]/8]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "5"], ",", 
+                  SqrtBox[
+                   RowBox[{
+                    FractionBox["5", "8"], "-", 
+                    FractionBox[
+                    SqrtBox["5"], "8"]}]]}], "}"}], {}, StripOnInput -> 
+              False]],
+            Annotation[#, 
+             
+             Style[{Rational[1, 5] 
+               Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+               Rational[1, 2]}, {}], 
+             "Tooltip"]& ]}}, {}, {}}, {}, {}, {}, {}, {}}, {
         GraphicsComplexBox[CompressedData["
 1:eJw9WHk4VW33NlQOpTJVQoNmiaRI6D68laJMlQYRiiRlKhpEg1SUkCQZKkWE
 klCSEIUkhUKpyBxnG8/Z+5wj3/P+ru/77X/WdV/P2mutZz33s9bae66Th7Wz
@@ -1709,42 +1730,31 @@ fipwj82M5Q17ac9z/mcacTjFfHpRm0dsYyLFucNG/qItubjKKobSjIrcZwvj
 wDkW04/6lCYfCUlEYpKQlGQkJwUpSUVq0pCWdPzML/xKejJwniX0pwFlyM8N
 1jKCllThAVsZT0desJPpfOBg4Ps/kFG/AjDpgUI=
               "]]},
-            Annotation[#, "Charting`Private`Tag$3193#1"]& ]}}], {}, {}}},
+            Annotation[#, "Charting`Private`Tag$15692#1"]& ]}}], {}, {}}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{True, True},
       AxesLabel->{None, None},
-      AxesOrigin->{0, 0},
-      DisplayFunction->Identity,
-      Frame->{{False, False}, {False, False}},
+      AxesOrigin->{-0.06283185307179587, 0.},
+      CoordinatesToolOptions:>{"DisplayFunction" -> ({
+          Identity[
+           Part[#, 1]], 
+          Identity[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          Identity[
+           Part[#, 1]], 
+          Identity[
+           Part[#, 2]]}& )},
       FrameLabel->{{None, None}, {None, None}},
-      FrameTicks->{{Automatic, 
-         Charting`ScaledFrameTicks[{Identity, Identity}]}, {Automatic, 
-         Charting`ScaledFrameTicks[{Identity, Identity}]}},
+      FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
       GridLines->{None, None},
       GridLinesStyle->Directive[
         GrayLevel[0.5, 0.4]],
-      ImagePadding->All,
       ImageSize->Medium,
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, "DefaultMeshStyle" -> 
-        AbsolutePointSize[6], "ScalingFunctions" -> None, 
-        "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
-            (Identity[#]& )[
-             Part[#, 1]], 
-            (Identity[#]& )[
-             Part[#, 2]]}& ), "CopiedValueFunction" -> ({
-            (Identity[#]& )[
-             Part[#, 1]], 
-            (Identity[#]& )[
-             Part[#, 2]]}& )}, "AxesInFront" -> True},
-      PlotRange->
-       NCache[{{0, Pi}, {0., 0.9999999707682925}}, {{0, 3.141592653589793}, {
-         0., 0.9999999707682925}}],
-      PlotRangeClipping->True,
+      PlotRange->{{All, All}, {All, All}},
       PlotRangePadding->{{
          Scaled[0.02], 
          Scaled[0.02]}, {
-         Scaled[0.05], 
+         Scaled[0.02], 
          Scaled[0.05]}},
       Ticks->{Automatic, Automatic}]},
     {"\<\"Rectangle area 1.93377\"\>"},
@@ -1764,8 +1774,11 @@ wDkW04/6lCYfCUlEYpKQlGQkJwUpSUVq0pCWdPzML/xKejJwniX0pwFlyM8N
    3.7071419625853558`*^9, 3.707142002069106*^9, 3.707142571531837*^9, 
    3.707142689298622*^9, 3.707215499506403*^9, {3.7072164735606203`*^9, 
    3.7072164899944363`*^9}, {3.707218346434225*^9, 3.707218368356954*^9}, 
-   3.707218983554923*^9},
- CellLabel->"Out[15]=",ExpressionUUID->"f90d304b-2e7b-4710-8b99-32896949182b"]
+   3.707218983554923*^9, {3.70724174726038*^9, 3.707241777189962*^9}, 
+   3.707242538132125*^9, 3.7072426073935966`*^9, 3.7072426903767223`*^9, {
+   3.7072431217144203`*^9, 3.707243138272533*^9}, 3.707243696236775*^9, {
+   3.7072438483085947`*^9, 3.707243877896738*^9}},
+ CellLabel->"Out[32]=",ExpressionUUID->"c4a72891-4ab5-4adf-afc7-b716bd894ce6"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -1828,17 +1841,15 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"rectArea", " ", "=", " ", 
    RowBox[{"riemannArea", "[", 
-    RowBox[{"Sin", ",", " ", "0", ",", " ", "Pi", ",", " ", 
-     RowBox[{"Pi", " ", "/", " ", "50"}]}], "]"}]}], 
+    RowBox[{"Sin", ",", " ", "0", ",", " ", "Pi", ",", " ", "50"}], "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{"Grid", "[", 
   RowBox[{"{", "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"{", 
      RowBox[{"riemannGraphic", "[", 
-      RowBox[{"Sin", ",", " ", "0", ",", " ", "Pi", ",", " ", 
-       RowBox[{"Pi", " ", "/", " ", "50"}]}], "]"}], "}"}], ",", 
-    "\[IndentingNewLine]", 
+      RowBox[{"Sin", ",", " ", "0", ",", " ", "Pi", ",", " ", "50"}], "]"}], 
+     "}"}], ",", "\[IndentingNewLine]", 
     RowBox[{"{", 
      RowBox[{"\"\<Rectangle area \>\"", " ", "<>", " ", 
       RowBox[{"ToString", "[", 
@@ -1859,541 +1870,1606 @@ Cell[BoxData[{
    3.7071328742130413`*^9}, {3.707135005145103*^9, 3.707135007161028*^9}, {
    3.7071372509216537`*^9, 3.707137305162713*^9}, {3.707137427774252*^9, 
    3.7071374381312933`*^9}, 3.707142094489669*^9, {3.707216581086163*^9, 
-   3.707216619663041*^9}},
- CellLabel->"In[16]:=",ExpressionUUID->"5937fef4-9900-4104-bea7-bc10893bfdf4"],
+   3.707216619663041*^9}, {3.7072431473048286`*^9, 3.707243153519916*^9}},
+ CellLabel->"In[29]:=",ExpressionUUID->"5937fef4-9900-4104-bea7-bc10893bfdf4"],
 
 Cell[BoxData[
  TagBox[GridBox[{
     {
-     GraphicsBox[{{GraphicsComplexBox[CompressedData["
-1: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
-zZZkSwsLl75Is8L//y/47/O/76X/4f8AhceBrQ==
-         "], {{{}, 
-           {RGBColor[0.368417, 0.506779, 0.709798], Opacity[0.2], EdgeForm[
-            None], GraphicsGroupBox[PolygonBox[CompressedData["
-1:eJwl0VWQEAQQgOFLuqQEpI5uREIJAUG6j5COA6TvpEulJEVJlQalW7q7U+lG
-6e4u5bu5h2/+ndnZpw2LiAqPDAoICAgkNDCmIYEx8yfmYD2ob5jKTp7Qg1/Y
-yB2+IpKfWMkVSlOd1vzAQs5SgI/JTz7ykofc5CInOchONrKShcxkIoyMZKAU
-1WjFIBZwhvSUpCotGch8TpOOenRiJCu4zOdUIYIBzOMUaalLR35kOZcoQWVa
-0J+5nOQjujOeDdymDh0YwTL+pThdGMNablCJ39jMPZrTjzmcIA1T2MFjurGX
-F4xjPbeozX5eMZH/2MoD2gfEPHy3PGM4b/mTfyhGkP0Bfc0k/mcbD+kcfW6/
-R58zmnes4ToV2cdLfmUTd2nGLp7yPbM5Tmoms51HdGUs67hJOBPYwn3aMYyl
-XKQo3zCK1VyjAk35jlkcIxW1aMtQlnCBz4jiZ1ZxlfI04VtmcpQPqUkbhrCY
-83xKORrTlz84Qkpq8DWDWcQ5ivAljejD7/xNCgpTlob0ZgZ/kZxClKEBvZjO
-YZKRlA9IQmISkZAExCcecYlDbGIRSgjB0f+mIF9Qn55M4xDvAXP7gVE=
-              
-              "]]]}, {}, {}}, {{}, {}, 
+     GraphicsBox[{{
+        {Opacity[0], 
+         PointBox[{{-0.06283185307179587, 0.}, {3.141592653589793, 
+          0.}}]}, {{}, 
+         {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[0.35], 
+          Thickness[Small]}], 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
            TagBox[
-            {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[1.6], 
-             Opacity[1.], LineBox[CompressedData["
-1:eJwl1FP8F1YYwOFfbhlr2ca2bGt5mVu2bdu17Fq2XWurZdu2bT//unjO9+I9
-d+/5nMR1W5VvGSwQCIRwBPUQM+hEVQqQieBBdwhJKEIThrD8QDjCE4GIRCIy
-UYhKNKJzmJl0phoFycyPHGEWXahOIbIQg6P8TVdqUJisXGApA2jI7/zEMWbT
-jT8oQjYusoyBNKIsMTnOHLrzJ0W5yTpG0orsXGI5g2hMOWJxgrn0oCa/cYv1
-jKI1ObjMCgbThMf8yyTKc5dNjKEdz9jBVGJzknn05CW7qMVD/mECb9lHMW6z
-gU+M5jV7CGbZbfQp2/nCFN5zIGjf5jn1Civ5yBBesTsQ+PZYmsoT/uMzk3nH
-fipwj82M5Q17ac9z/mcacTjFfHpRm0dsYyLFucNG/qItubjKKobSjIrcZwvj
-6EBcTrOA3tShBLm5xmqG0ZxKxOMMC+lDXUqSh+usYTgtqEx8zrKIvtSjFHlJ
-wDkW04/6lCYfCUlEYpKQlGQkJwUpSUVq0pCWdPzML/xKejJwniX0pwFlyM8N
-1jKCllThAVsZT0desJPpfOBg4Ps/kFG/AjDpgUI=
-              "]]},
-            Annotation[#, "Charting`Private`Tag$3286#1"]& ]}}], {}, {}}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{0, 0}, {0, 0}, {Rational[1, 50] Pi, 0}, {
-           Rational[1, 50] Pi, 0}}, {{0, 0}, {0, 0}, {
-           0.06283185307179587, 0}, {0.06283185307179587, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[1, 50] Pi, 0}, {
-           Rational[1, 50] Pi, Sin[Rational[1, 50] Pi]}, {
-           Rational[1, 25] Pi, Sin[Rational[1, 50] Pi]}, {
-           Rational[1, 25] Pi, 0}}, {{0.06283185307179587, 0}, {
-           0.06283185307179587, 0.06279051952931337}, {0.12566370614359174`, 
-           0.06279051952931337}, {0.12566370614359174`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[1, 25] Pi, 0}, {
-           Rational[1, 25] Pi, Sin[Rational[1, 25] Pi]}, {
-           Rational[3, 50] Pi, Sin[Rational[1, 25] Pi]}, {
-           Rational[3, 50] Pi, 0}}, {{0.12566370614359174`, 0}, {
-           0.12566370614359174`, 0.12533323356430426`}, {0.18849555921538758`,
-            0.12533323356430426`}, {0.18849555921538758`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[3, 50] Pi, 0}, {
-           Rational[3, 50] Pi, Sin[Rational[3, 50] Pi]}, {
-           Rational[2, 25] Pi, Sin[Rational[3, 50] Pi]}, {
-           Rational[2, 25] Pi, 0}}, {{0.18849555921538758`, 0}, {
-           0.18849555921538758`, 0.1873813145857246}, {0.25132741228718347`, 
-           0.1873813145857246}, {0.25132741228718347`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[2, 25] Pi, 0}, {
-           Rational[2, 25] Pi, Sin[Rational[2, 25] Pi]}, {
-           Rational[1, 10] Pi, Sin[Rational[2, 25] Pi]}, {
-           Rational[1, 10] Pi, 0}}, {{0.25132741228718347`, 0}, {
-           0.25132741228718347`, 0.2486898871648548}, {0.3141592653589793, 
-           0.2486898871648548}, {0.3141592653589793, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[1, 10] Pi, 0}, {
-           Rational[1, 10] Pi, Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-           Rational[3, 25] Pi, Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-           Rational[3, 25] Pi, 0}}, {{0.3141592653589793, 0}, {
-           0.3141592653589793, 0.30901699437494745`}, {0.37699111843077515`, 
-           0.30901699437494745`}, {0.37699111843077515`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[3, 25] Pi, 0}, {
-           Rational[3, 25] Pi, Sin[Rational[3, 25] Pi]}, {
-           Rational[7, 50] Pi, Sin[Rational[3, 25] Pi]}, {
-           Rational[7, 50] Pi, 0}}, {{0.37699111843077515`, 0}, {
-           0.37699111843077515`, 0.3681245526846779}, {0.4398229715025711, 
-           0.3681245526846779}, {0.4398229715025711, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[7, 50] Pi, 0}, {
-           Rational[7, 50] Pi, Sin[Rational[7, 50] Pi]}, {
-           Rational[4, 25] Pi, Sin[Rational[7, 50] Pi]}, {
-           Rational[4, 25] Pi, 0}}, {{0.4398229715025711, 0}, {
-           0.4398229715025711, 0.4257792915650727}, {0.5026548245743669, 
-           0.4257792915650727}, {0.5026548245743669, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[4, 25] Pi, 0}, {
-           Rational[4, 25] Pi, Sin[Rational[4, 25] Pi]}, {
-           Rational[9, 50] Pi, Sin[Rational[4, 25] Pi]}, {
-           Rational[9, 50] Pi, 0}}, {{0.5026548245743669, 0}, {
-           0.5026548245743669, 0.4817536741017153}, {0.5654866776461628, 
-           0.4817536741017153}, {0.5654866776461628, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[9, 50] Pi, 0}, {
-           Rational[9, 50] Pi, Sin[Rational[9, 50] Pi]}, {
-           Rational[1, 5] Pi, Sin[Rational[9, 50] Pi]}, {
-           Rational[1, 5] Pi, 0}}, {{0.5654866776461628, 0}, {
-           0.5654866776461628, 0.5358267949789967}, {0.6283185307179586, 
-           0.5358267949789967}, {0.6283185307179586, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[1, 5] Pi, 0}, {
-           Rational[1, 5] 
-            Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-           Rational[11, 50] 
-            Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {Rational[11, 50] Pi, 0}}, {{
-           0.6283185307179586, 0}, {0.6283185307179586, 0.5877852522924731}, {
-           0.6911503837897545, 0.5877852522924731}, {
-           0.6911503837897545, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[11, 50] Pi, 0}, {
-           Rational[11, 50] Pi, Sin[Rational[11, 50] Pi]}, {
-           Rational[6, 25] Pi, Sin[Rational[11, 50] Pi]}, {
-           Rational[6, 25] Pi, 0}}, {{0.6911503837897545, 0}, {
-           0.6911503837897545, 0.6374239897486896}, {0.7539822368615503, 
-           0.6374239897486896}, {0.7539822368615503, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[6, 25] Pi, 0}, {
-           Rational[6, 25] Pi, Sin[Rational[6, 25] Pi]}, {
-           Rational[13, 50] Pi, Sin[Rational[6, 25] Pi]}, {
-           Rational[13, 50] Pi, 0}}, {{0.7539822368615503, 0}, {
-           0.7539822368615503, 0.6845471059286886}, {0.8168140899333463, 
-           0.6845471059286886}, {0.8168140899333463, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[13, 50] Pi, 0}, {
-           Rational[13, 50] Pi, Cos[Rational[6, 25] Pi]}, {
-           Rational[7, 25] Pi, Cos[Rational[6, 25] Pi]}, {
-           Rational[7, 25] Pi, 0}}, {{0.8168140899333463, 0}, {
-           0.8168140899333463, 0.7289686274214116}, {0.8796459430051422, 
-           0.7289686274214116}, {0.8796459430051422, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[7, 25] Pi, 0}, {
-           Rational[7, 25] Pi, Cos[Rational[11, 50] Pi]}, {
-           Rational[3, 10] Pi, Cos[Rational[11, 50] Pi]}, {
-           Rational[3, 10] Pi, 0}}, {{0.8796459430051422, 0}, {
-           0.8796459430051422, 0.7705132427757893}, {0.9424777960769379, 
-           0.7705132427757893}, {0.9424777960769379, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[3, 10] Pi, 0}, {
-           Rational[3, 10] Pi, Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-           Rational[8, 25] Pi, Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-           Rational[8, 25] Pi, 0}}, {{0.9424777960769379, 0}, {
-           0.9424777960769379, 0.8090169943749475}, {1.0053096491487339`, 
-           0.8090169943749475}, {1.0053096491487339`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[8, 25] Pi, 0}, {
-           Rational[8, 25] Pi, Cos[Rational[9, 50] Pi]}, {
-           Rational[17, 50] Pi, Cos[Rational[9, 50] Pi]}, {
-           Rational[17, 50] Pi, 0}}, {{1.0053096491487339`, 0}, {
-           1.0053096491487339`, 0.8443279255020151}, {1.0681415022205298`, 
-           0.8443279255020151}, {1.0681415022205298`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[17, 50] Pi, 0}, {
-           Rational[17, 50] Pi, Cos[Rational[4, 25] Pi]}, {
-           Rational[9, 25] Pi, Cos[Rational[4, 25] Pi]}, {
-           Rational[9, 25] Pi, 0}}, {{1.0681415022205298`, 0}, {
-           1.0681415022205298`, 0.8763066800438636}, {1.1309733552923256`, 
-           0.8763066800438636}, {1.1309733552923256`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[9, 25] Pi, 0}, {
-           Rational[9, 25] Pi, Cos[Rational[7, 50] Pi]}, {
-           Rational[19, 50] Pi, Cos[Rational[7, 50] Pi]}, {
-           Rational[19, 50] Pi, 0}}, {{1.1309733552923256`, 0}, {
-           1.1309733552923256`, 0.9048270524660195}, {1.1938052083641213`, 
-           0.9048270524660195}, {1.1938052083641213`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[19, 50] Pi, 0}, {
-           Rational[19, 50] Pi, Cos[Rational[3, 25] Pi]}, {
-           Rational[2, 5] Pi, Cos[Rational[3, 25] Pi]}, {
-           Rational[2, 5] Pi, 0}}, {{1.1938052083641213`, 0}, {
-           1.1938052083641213`, 0.9297764858882515}, {1.2566370614359172`, 
-           0.9297764858882515}, {1.2566370614359172`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[2, 5] Pi, 0}, {
-           Rational[2, 5] 
-            Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-           Rational[21, 50] 
-            Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {Rational[21, 50] Pi, 0}}, {{
-           1.2566370614359172`, 0}, {1.2566370614359172`, 
-           0.9510565162951535}, {1.319468914507713, 0.9510565162951535}, {
-           1.319468914507713, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[21, 50] Pi, 0}, {
-           Rational[21, 50] Pi, Cos[Rational[2, 25] Pi]}, {
-           Rational[11, 25] Pi, Cos[Rational[2, 25] Pi]}, {
-           Rational[11, 25] Pi, 0}}, {{1.319468914507713, 0}, {
-           1.319468914507713, 0.9685831611286311}, {1.382300767579509, 
-           0.9685831611286311}, {1.382300767579509, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[11, 25] Pi, 0}, {
-           Rational[11, 25] Pi, Cos[Rational[3, 50] Pi]}, {
-           Rational[23, 50] Pi, Cos[Rational[3, 50] Pi]}, {
-           Rational[23, 50] Pi, 0}}, {{1.382300767579509, 0}, {
-           1.382300767579509, 0.9822872507286887}, {1.4451326206513049`, 
-           0.9822872507286887}, {1.4451326206513049`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[23, 50] Pi, 0}, {
-           Rational[23, 50] Pi, Cos[Rational[1, 25] Pi]}, {
-           Rational[12, 25] Pi, Cos[Rational[1, 25] Pi]}, {
-           Rational[12, 25] Pi, 0}}, {{1.4451326206513049`, 0}, {
-           1.4451326206513049`, 0.9921147013144779}, {1.5079644737231006`, 
-           0.9921147013144779}, {1.5079644737231006`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[12, 25] Pi, 0}, {
-           Rational[12, 25] Pi, Cos[Rational[1, 50] Pi]}, {
-           Rational[1, 2] Pi, Cos[Rational[1, 50] Pi]}, {
-           Rational[1, 2] Pi, 0}}, {{1.5079644737231006`, 0}, {
-           1.5079644737231006`, 0.9980267284282716}, {1.5707963267948966`, 
-           0.9980267284282716}, {1.5707963267948966`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[1, 2] Pi, 0}, {Rational[1, 2] Pi, 1}, {
-           Rational[13, 25] Pi, 1}, {Rational[13, 25] Pi, 0}}, {{
-           1.5707963267948966`, 0}, {1.5707963267948966`, 1}, {
-           1.6336281798666925`, 1}, {1.6336281798666925`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[13, 25] Pi, 0}, {
-           Rational[13, 25] Pi, Cos[Rational[1, 50] Pi]}, {
-           Rational[27, 50] Pi, Cos[Rational[1, 50] Pi]}, {
-           Rational[27, 50] Pi, 0}}, {{1.6336281798666925`, 0}, {
-           1.6336281798666925`, 0.9980267284282716}, {1.6964600329384885`, 
-           0.9980267284282716}, {1.6964600329384885`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[27, 50] Pi, 0}, {
-           Rational[27, 50] Pi, Cos[Rational[1, 25] Pi]}, {
-           Rational[14, 25] Pi, Cos[Rational[1, 25] Pi]}, {
-           Rational[14, 25] Pi, 0}}, {{1.6964600329384885`, 0}, {
-           1.6964600329384885`, 0.9921147013144779}, {1.7592918860102844`, 
-           0.9921147013144779}, {1.7592918860102844`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[14, 25] Pi, 0}, {
-           Rational[14, 25] Pi, Cos[Rational[3, 50] Pi]}, {
-           Rational[29, 50] Pi, Cos[Rational[3, 50] Pi]}, {
-           Rational[29, 50] Pi, 0}}, {{1.7592918860102844`, 0}, {
-           1.7592918860102844`, 0.9822872507286887}, {1.82212373908208, 
-           0.9822872507286887}, {1.82212373908208, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[29, 50] Pi, 0}, {
-           Rational[29, 50] Pi, Cos[Rational[2, 25] Pi]}, {
-           Rational[3, 5] Pi, Cos[Rational[2, 25] Pi]}, {
-           Rational[3, 5] Pi, 0}}, {{1.82212373908208, 0}, {1.82212373908208, 
-           0.9685831611286311}, {1.8849555921538759`, 0.9685831611286311}, {
-           1.8849555921538759`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[3, 5] Pi, 0}, {
-           Rational[3, 5] 
-            Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-           Rational[31, 50] 
-            Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {Rational[31, 50] Pi, 0}}, {{
-           1.8849555921538759`, 0}, {1.8849555921538759`, 
-           0.9510565162951535}, {1.9477874452256718`, 0.9510565162951535}, {
-           1.9477874452256718`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[31, 50] Pi, 0}, {
-           Rational[31, 50] Pi, Cos[Rational[3, 25] Pi]}, {
-           Rational[16, 25] Pi, Cos[Rational[3, 25] Pi]}, {
-           Rational[16, 25] Pi, 0}}, {{1.9477874452256718`, 0}, {
-           1.9477874452256718`, 0.9297764858882515}, {2.0106192982974678`, 
-           0.9297764858882515}, {2.0106192982974678`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[16, 25] Pi, 0}, {
-           Rational[16, 25] Pi, Cos[Rational[7, 50] Pi]}, {
-           Rational[33, 50] Pi, Cos[Rational[7, 50] Pi]}, {
-           Rational[33, 50] Pi, 0}}, {{2.0106192982974678`, 0}, {
-           2.0106192982974678`, 0.9048270524660195}, {2.0734511513692637`, 
-           0.9048270524660195}, {2.0734511513692637`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[33, 50] Pi, 0}, {
-           Rational[33, 50] Pi, Cos[Rational[4, 25] Pi]}, {
-           Rational[17, 25] Pi, Cos[Rational[4, 25] Pi]}, {
-           Rational[17, 25] Pi, 0}}, {{2.0734511513692637`, 0}, {
-           2.0734511513692637`, 0.8763066800438636}, {2.1362830044410597`, 
-           0.8763066800438636}, {2.1362830044410597`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[17, 25] Pi, 0}, {
-           Rational[17, 25] Pi, Cos[Rational[9, 50] Pi]}, {
-           Rational[7, 10] Pi, Cos[Rational[9, 50] Pi]}, {
-           Rational[7, 10] Pi, 0}}, {{2.1362830044410597`, 0}, {
-           2.1362830044410597`, 0.8443279255020151}, {2.199114857512855, 
-           0.8443279255020151}, {2.199114857512855, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[7, 10] Pi, 0}, {
-           Rational[7, 10] Pi, Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-           Rational[18, 25] Pi, Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-           Rational[18, 25] Pi, 0}}, {{2.199114857512855, 0}, {
-           2.199114857512855, 0.8090169943749475}, {2.261946710584651, 
-           0.8090169943749475}, {2.261946710584651, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[18, 25] Pi, 0}, {
-           Rational[18, 25] Pi, Cos[Rational[11, 50] Pi]}, {
-           Rational[37, 50] Pi, Cos[Rational[11, 50] Pi]}, {
-           Rational[37, 50] Pi, 0}}, {{2.261946710584651, 0}, {
-           2.261946710584651, 0.7705132427757893}, {2.324778563656447, 
-           0.7705132427757893}, {2.324778563656447, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[37, 50] Pi, 0}, {
-           Rational[37, 50] Pi, Cos[Rational[6, 25] Pi]}, {
-           Rational[19, 25] Pi, Cos[Rational[6, 25] Pi]}, {
-           Rational[19, 25] Pi, 0}}, {{2.324778563656447, 0}, {
-           2.324778563656447, 0.7289686274214116}, {2.3876104167282426`, 
-           0.7289686274214116}, {2.3876104167282426`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[19, 25] Pi, 0}, {
-           Rational[19, 25] Pi, Sin[Rational[6, 25] Pi]}, {
-           Rational[39, 50] Pi, Sin[Rational[6, 25] Pi]}, {
-           Rational[39, 50] Pi, 0}}, {{2.3876104167282426`, 0}, {
-           2.3876104167282426`, 0.6845471059286886}, {2.4504422698000385`, 
-           0.6845471059286886}, {2.4504422698000385`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[39, 50] Pi, 0}, {
-           Rational[39, 50] Pi, Sin[Rational[11, 50] Pi]}, {
-           Rational[4, 5] Pi, Sin[Rational[11, 50] Pi]}, {
-           Rational[4, 5] Pi, 0}}, {{2.4504422698000385`, 0}, {
-           2.4504422698000385`, 0.6374239897486896}, {2.5132741228718345`, 
-           0.6374239897486896}, {2.5132741228718345`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[4, 5] Pi, 0}, {
-           Rational[4, 5] 
-            Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-           Rational[41, 50] 
-            Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {Rational[41, 50] Pi, 0}}, {{
-           2.5132741228718345`, 0}, {2.5132741228718345`, 
-           0.5877852522924731}, {2.57610597594363, 0.5877852522924731}, {
-           2.57610597594363, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[41, 50] Pi, 0}, {
-           Rational[41, 50] Pi, Sin[Rational[9, 50] Pi]}, {
-           Rational[21, 25] Pi, Sin[Rational[9, 50] Pi]}, {
-           Rational[21, 25] Pi, 0}}, {{2.57610597594363, 0}, {
-           2.57610597594363, 0.5358267949789967}, {2.638937829015426, 
-           0.5358267949789967}, {2.638937829015426, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[21, 25] Pi, 0}, {
-           Rational[21, 25] Pi, Sin[Rational[4, 25] Pi]}, {
-           Rational[43, 50] Pi, Sin[Rational[4, 25] Pi]}, {
-           Rational[43, 50] Pi, 0}}, {{2.638937829015426, 0}, {
-           2.638937829015426, 0.4817536741017153}, {2.701769682087222, 
-           0.4817536741017153}, {2.701769682087222, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[43, 50] Pi, 0}, {
-           Rational[43, 50] Pi, Sin[Rational[7, 50] Pi]}, {
-           Rational[22, 25] Pi, Sin[Rational[7, 50] Pi]}, {
-           Rational[22, 25] Pi, 0}}, {{2.701769682087222, 0}, {
-           2.701769682087222, 0.4257792915650727}, {2.764601535159018, 
-           0.4257792915650727}, {2.764601535159018, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[22, 25] Pi, 0}, {
-           Rational[22, 25] Pi, Sin[Rational[3, 25] Pi]}, {
-           Rational[9, 10] Pi, Sin[Rational[3, 25] Pi]}, {
-           Rational[9, 10] Pi, 0}}, {{2.764601535159018, 0}, {
-           2.764601535159018, 0.3681245526846779}, {2.827433388230814, 
-           0.3681245526846779}, {2.827433388230814, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[9, 10] Pi, 0}, {
-           Rational[9, 10] Pi, Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-           Rational[23, 25] Pi, Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-           Rational[23, 25] Pi, 0}}, {{2.827433388230814, 0}, {
-           2.827433388230814, 0.30901699437494745`}, {2.8902652413026098`, 
-           0.30901699437494745`}, {2.8902652413026098`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[23, 25] Pi, 0}, {
-           Rational[23, 25] Pi, Sin[Rational[2, 25] Pi]}, {
-           Rational[47, 50] Pi, Sin[Rational[2, 25] Pi]}, {
-           Rational[47, 50] Pi, 0}}, {{2.8902652413026098`, 0}, {
-           2.8902652413026098`, 0.2486898871648548}, {2.9530970943744053`, 
-           0.2486898871648548}, {2.9530970943744053`, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[47, 50] Pi, 0}, {
-           Rational[47, 50] Pi, Sin[Rational[3, 50] Pi]}, {
-           Rational[24, 25] Pi, Sin[Rational[3, 50] Pi]}, {
-           Rational[24, 25] Pi, 0}}, {{2.9530970943744053`, 0}, {
-           2.9530970943744053`, 0.1873813145857246}, {3.015928947446201, 
-           0.1873813145857246}, {3.015928947446201, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[24, 25] Pi, 0}, {
-           Rational[24, 25] Pi, Sin[Rational[1, 25] Pi]}, {
-           Rational[49, 50] Pi, Sin[Rational[1, 25] Pi]}, {
-           Rational[49, 50] Pi, 0}}, {{3.015928947446201, 0}, {
-           3.015928947446201, 0.12533323356430426`}, {3.078760800517997, 
-           0.12533323356430426`}, {3.078760800517997, 0}}]]}, 
-       {RGBColor[1, 0, 0], EdgeForm[{GrayLevel[0], Thickness[Large]}], 
-        PolygonBox[
-         NCache[{{Rational[49, 50] Pi, 0}, {
-           Rational[49, 50] Pi, Sin[Rational[1, 50] Pi]}, {
-           Pi, Sin[Rational[1, 50] Pi]}, {Pi, 0}}, {{3.078760800517997, 0}, {
-           3.078760800517997, 0.06279051952931337}, {3.141592653589793, 
-           0.06279051952931337}, {3.141592653589793, 0}}]]}, {
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0., 0.}, {0.06283185307179587, 0.}, 
+                 "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{23.309423769507802`, 30.368847539015604`}, {
+                94.3086071580891, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 0}]& ,
+              TagBoxNote->"{Pi/50, 0}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", "0"}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 0}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.06283185307179587, 0.}, {0.12566370614359174`,
+                  0.06279051952931337}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{29.868847539015604`, 36.928271308523406`}, {
+                81.73227448159074, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[1, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[Pi/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox["\[Pi]", "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[1, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.12566370614359174`, 0.}, {
+                 0.18849555921538758`, 0.12533323356430426`}, 
+                 "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{36.428271308523406`, 43.48769507803121}, {
+                69.20557484458664, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[1, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[Pi/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox["\[Pi]", "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[1, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.18849555921538758`, 0.}, {
+                 0.25132741228718347`, 0.1873813145857246}, "RoundingRadius" -> 
+                 0]},
+               
+               ImageSizeCache->{{42.98769507803121, 50.04711884753901}, {
+                56.777945407639386`, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[3, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(3*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"3", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[3, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.25132741228718347`, 0.}, {0.3141592653589793, 
+                 0.2486898871648548}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{49.54711884753901, 56.60654261704681}, {
+                44.49843234649275, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[2, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(2*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[2, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.3141592653589793, 0.}, {0.37699111843077515`, 
+                 0.30901699437494745`}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{56.10654261704681, 63.165966386554615`}, {
+                32.41549728922321, 94.8086071580891}}],
+              
+              StatusArea[#, {
+               Rational[1, 50] Pi, Rational[1, 4] (-1 + 5^Rational[1, 2])}]& ,
+              
+              TagBoxNote->"{Pi/50, (-1 + Sqrt[5])/4}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{
+                    FractionBox["1", "4"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", 
+                    SqrtBox["5"]}], ")"}]}]}], "}"}], {}, StripOnInput -> 
+              False]],
+            Annotation[#, 
+             
+             Style[{Rational[1, 50] Pi, 
+               Rational[1, 4] (-1 + 5^Rational[1, 2])}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.37699111843077515`, 0.}, {0.4398229715025711, 
+                 0.3681245526846779}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{62.665966386554615`, 69.72539015606242}, {
+                20.576826060333886`, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[3, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(3*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"3", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[3, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.4398229715025711, 0.}, {0.5026548245743669, 
+                 0.4257792915650727}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{69.22539015606242, 76.28481392557023}, {
+                9.029140486590734, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[7, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(7*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"7", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[7, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.5026548245743669, 0.}, {0.5654866776461628, 
+                 0.4817536741017153}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{75.78481392557023, 
+                82.84423769507802}, {-2.1819859926823284`, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[4, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(4*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"4", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[4, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.5654866776461628, 0.}, {0.6283185307179586, 
+                 0.5358267949789967}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{82.34423769507802, 
+                89.40366146458582}, {-13.012308183148136`, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[9, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(9*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"9", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[9, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.6283185307179586, 0.}, {0.6911503837897545, 
+                 0.5877852522924731}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{88.90366146458582, 
+                95.96308523409363}, {-23.41908375102446, 94.8086071580891}}],
+              
+              StatusArea[#, {
+               Rational[1, 50] 
+                Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+                Rational[1, 2]}]& ,
+              TagBoxNote->"{Pi/50, Sqrt[5/8 - Sqrt[5]/8]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  SqrtBox[
+                   RowBox[{
+                    FractionBox["5", "8"], "-", 
+                    FractionBox[
+                    SqrtBox["5"], "8"]}]]}], "}"}], {}, StripOnInput -> 
+              False]],
+            Annotation[#, 
+             
+             Style[{Rational[1, 50] 
+               Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+               Rational[1, 2]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.6911503837897545, 0.}, {0.7539822368615503, 
+                 0.6374239897486896}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{95.46308523409363, 
+                102.52250900360143`}, {-33.36124190754839, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[11, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(11*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"11", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[11, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.7539822368615503, 0.}, {0.8168140899333463, 
+                 0.6845471059286886}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{102.02250900360143`, 
+                109.08193277310924`}, {-42.79954549661619, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[6, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(6*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"6", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[6, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.8168140899333463, 0.}, {0.8796459430051422, 
+                 0.7289686274214116}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{108.58193277310924`, 
+                115.64135654261705`}, {-51.69674584591252, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[6, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(6*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"6", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[6, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.8796459430051422, 0.}, {0.9424777960769379, 
+                 0.7705132427757893}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{115.14135654261705`, 
+                122.20078031212483`}, {-60.01772977040292, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[11, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(11*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"11", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[11, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{0.9424777960769379, 0.}, {1.0053096491487339`, 
+                 0.8090169943749475}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{121.70078031212483`, 
+                128.76020408163265`}, {-67.72965814803334, 94.8086071580891}}],
+              
+              StatusArea[#, {
+               Rational[1, 50] Pi, Rational[1, 4] (1 + 5^Rational[1, 2])}]& ,
+              TagBoxNote->"{Pi/50, (1 + Sqrt[5])/4}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{
+                    FractionBox["1", "4"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{"1", "+", 
+                    SqrtBox["5"]}], ")"}]}]}], "}"}], {}, StripOnInput -> 
+              False]],
+            Annotation[#, 
+             
+             Style[{Rational[1, 50] Pi, 
+               Rational[1, 4] (1 + 5^Rational[1, 2])}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.0053096491487339`, 0.}, {1.0681415022205298`, 
+                 0.8443279255020151}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{128.26020408163265`, 
+                135.31962785114047`}, {-74.80209552074223, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[9, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(9*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"9", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[9, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.0681415022205298`, 0.}, {1.1309733552923256`, 
+                 0.8763066800438636}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{134.81962785114047`, 
+                141.87905162064826`}, {-81.20713020930881, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[4, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(4*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"4", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[4, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                RectangleBox[{1.1309733552923256`, 0.}, {1.1938052083641213`, 
+                 0.9048270524660195}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{141.37905162064826`, 
+                148.43847539015604`}, {-86.9194844679993, 94.8086071580891}}],
+              
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[7, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(7*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"7", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[7, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.1938052083641213`, 0.}, {1.2566370614359172`, 
+                 0.9297764858882515}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{147.93847539015604`, 
+                154.99789915966386`}, {-91.9166142442811, 94.8086071580891}}],
+              
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[3, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(3*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"3", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[3, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.2566370614359172`, 0.}, {1.319468914507713, 
+                 0.9510565162951535}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{154.49789915966386`, 
+                161.55732292917162`}, {-96.17879814989863, 94.8086071580891}}],
+              
+              StatusArea[#, {
+               Rational[1, 50] 
+                Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+                Rational[1, 2]}]& ,
+              TagBoxNote->"{Pi/50, Sqrt[5/8 + Sqrt[5]/8]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  SqrtBox[
+                   RowBox[{
+                    FractionBox["5", "8"], "+", 
+                    FractionBox[
+                    SqrtBox["5"], "8"]}]]}], "}"}], {}, StripOnInput -> 
+              False]],
+            Annotation[#, 
+             
+             Style[{Rational[1, 50] 
+               Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+               Rational[1, 2]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                RectangleBox[{1.319468914507713, 0.}, {1.382300767579509, 
+                 0.9685831611286311}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{161.05732292917162`, 
+                168.11674669867944`}, {-99.68921529218304, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[2, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(2*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[2, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.382300767579509, 0.}, {1.4451326206513049`, 
+                 0.9822872507286887}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{167.61674669867944`, 
+                174.67617046818725`}, {-102.43401165843076`, 
+                94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[3, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(3*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"3", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[3, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.4451326206513049`, 0.}, {1.5079644737231006`, 
+                 0.9921147013144779}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{174.17617046818725`, 
+                181.23559423769507`}, {-104.40235479136237`, 
+                94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[1, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[Pi/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox["\[Pi]", "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[1, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.5079644737231006`, 0.}, {1.5707963267948966`, 
+                 0.9980267284282716}, "RoundingRadius" -> 0]},
+               ImageSizeCache->{{180.73559423769507`, 
+                187.79501800720288`}, {-105.58647653988265`, 
+                94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[1, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[Pi/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox["\[Pi]", "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[1, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.5707963267948966`, 0.}, {1.6336281798666925`, 
+                 1.}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{187.29501800720288`, 
+                194.3544417767107}, {-105.981703716424, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 1}]& ,
+              TagBoxNote->"{Pi/50, 1}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", "1"}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 1}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.6336281798666925`, 0.}, {1.6964600329384885`, 
+                 0.9980267284282716}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{193.8544417767107, 
+                200.91386554621852`}, {-105.58647653988265`, 
+                94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[1, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[Pi/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox["\[Pi]", "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[1, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.6964600329384885`, 0.}, {1.7592918860102844`, 
+                 0.9921147013144779}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{200.41386554621852`, 
+                207.47328931572628`}, {-104.40235479136237`, 
+                94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[1, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[Pi/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox["\[Pi]", "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[1, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.7592918860102844`, 0.}, {1.82212373908208, 
+                 0.9822872507286887}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{206.97328931572628`, 
+                214.0327130852341}, {-102.43401165843076`, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[3, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(3*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"3", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[3, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.82212373908208, 0.}, {1.8849555921538759`, 
+                 0.9685831611286311}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{213.5327130852341, 
+                220.59213685474185`}, {-99.68921529218304, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[2, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(2*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[2, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.8849555921538759`, 0.}, {1.9477874452256718`, 
+                 0.9510565162951535}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{220.09213685474185`, 
+                227.15156062424967`}, {-96.17879814989863, 94.8086071580891}}],
+              
+              StatusArea[#, {
+               Rational[1, 50] 
+                Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+                Rational[1, 2]}]& ,
+              TagBoxNote->"{Pi/50, Sqrt[5/8 + Sqrt[5]/8]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  SqrtBox[
+                   RowBox[{
+                    FractionBox["5", "8"], "+", 
+                    FractionBox[
+                    SqrtBox["5"], "8"]}]]}], "}"}], {}, StripOnInput -> 
+              False]],
+            Annotation[#, 
+             
+             Style[{Rational[1, 50] 
+               Pi, (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+               Rational[1, 2]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{1.9477874452256718`, 0.}, {2.0106192982974678`, 
+                 0.9297764858882515}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{226.65156062424967`, 
+                233.71098439375749`}, {-91.9166142442811, 94.8086071580891}}],
+              
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[3, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(3*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"3", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[3, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.0106192982974678`, 0.}, {2.0734511513692637`, 
+                 0.9048270524660195}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{233.21098439375749`, 
+                240.2704081632653}, {-86.9194844679993, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[7, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(7*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"7", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[7, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.0734511513692637`, 0.}, {2.1362830044410597`, 
+                 0.8763066800438636}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{239.7704081632653, 
+                246.82983193277312`}, {-81.20713020930881, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[4, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(4*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"4", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[4, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.1362830044410597`, 0.}, {2.199114857512855, 
+                 0.8443279255020151}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{246.32983193277312`, 
+                253.38925570228088`}, {-74.80209552074223, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[9, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(9*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"9", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[9, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.199114857512855, 0.}, {2.261946710584651, 
+                 0.8090169943749475}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{252.88925570228088`, 
+                259.9486794717887}, {-67.72965814803334, 94.8086071580891}}],
+              
+              StatusArea[#, {
+               Rational[1, 50] Pi, Rational[1, 4] (1 + 5^Rational[1, 2])}]& ,
+              TagBoxNote->"{Pi/50, (1 + Sqrt[5])/4}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{
+                    FractionBox["1", "4"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{"1", "+", 
+                    SqrtBox["5"]}], ")"}]}]}], "}"}], {}, StripOnInput -> 
+              False]],
+            Annotation[#, 
+             
+             Style[{Rational[1, 50] Pi, 
+               Rational[1, 4] (1 + 5^Rational[1, 2])}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.261946710584651, 0.}, {2.324778563656447, 
+                 0.7705132427757893}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{259.4486794717887, 
+                266.5081032412965}, {-60.01772977040292, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[11, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(11*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"11", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[11, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.324778563656447, 0.}, {2.3876104167282426`, 
+                 0.7289686274214116}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{266.0081032412965, 
+                273.06752701080427`}, {-51.69674584591252, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Cos[Rational[6, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Cos[(6*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"6", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Cos[Rational[6, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.3876104167282426`, 0.}, {2.4504422698000385`, 
+                 0.6845471059286886}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{272.56752701080427`, 
+                279.6269507803121}, {-42.79954549661619, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[6, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(6*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"6", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[6, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.4504422698000385`, 0.}, {2.5132741228718345`, 
+                 0.6374239897486896}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{279.1269507803121, 
+                286.1863745498199}, {-33.36124190754839, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[11, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(11*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"11", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[11, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.5132741228718345`, 0.}, {2.57610597594363, 
+                 0.5877852522924731}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{285.6863745498199, 
+                292.74579831932766`}, {-23.41908375102446, 94.8086071580891}}],
+              
+              StatusArea[#, {
+               Rational[1, 50] 
+                Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+                Rational[1, 2]}]& ,
+              TagBoxNote->"{Pi/50, Sqrt[5/8 - Sqrt[5]/8]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  SqrtBox[
+                   RowBox[{
+                    FractionBox["5", "8"], "-", 
+                    FractionBox[
+                    SqrtBox["5"], "8"]}]]}], "}"}], {}, StripOnInput -> 
+              False]],
+            Annotation[#, 
+             
+             Style[{Rational[1, 50] 
+               Pi, (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+               Rational[1, 2]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.57610597594363, 0.}, {2.638937829015426, 
+                 0.5358267949789967}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{292.24579831932766`, 
+                299.3052220888355}, {-13.012308183148136`, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[9, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(9*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"9", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[9, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.638937829015426, 0.}, {2.701769682087222, 
+                 0.4817536741017153}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{298.8052220888355, 
+                305.8646458583433}, {-2.1819859926823284`, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[4, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(4*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"4", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[4, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.701769682087222, 0.}, {2.764601535159018, 
+                 0.4257792915650727}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{305.3646458583433, 312.4240696278511}, {
+                9.029140486590734, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[7, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(7*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"7", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[7, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.764601535159018, 0.}, {2.827433388230814, 
+                 0.3681245526846779}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{311.9240696278511, 318.9834933973589}, {
+                20.576826060333886`, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[3, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(3*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"3", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[3, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.827433388230814, 0.}, {2.8902652413026098`, 
+                 0.30901699437494745`}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{318.4834933973589, 325.54291716686674`}, {
+                32.41549728922321, 94.8086071580891}}],
+              
+              StatusArea[#, {
+               Rational[1, 50] Pi, Rational[1, 4] (-1 + 5^Rational[1, 2])}]& ,
+              
+              TagBoxNote->"{Pi/50, (-1 + Sqrt[5])/4}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{
+                    FractionBox["1", "4"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", 
+                    SqrtBox["5"]}], ")"}]}]}], "}"}], {}, StripOnInput -> 
+              False]],
+            Annotation[#, 
+             
+             Style[{Rational[1, 50] Pi, 
+               Rational[1, 4] (-1 + 5^Rational[1, 2])}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.8902652413026098`, 0.}, {2.9530970943744053`, 
+                 0.2486898871648548}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{325.04291716686674`, 332.1023409363745}, {
+                44.49843234649275, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[2, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(2*Pi)/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"2", " ", "\[Pi]"}], "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[2, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{2.9530970943744053`, 0.}, {3.015928947446201, 
+                 0.1873813145857246}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{331.6023409363745, 338.6617647058823}, {
+                56.777945407639386`, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[3, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[(3*Pi)/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"3", " ", "\[Pi]"}], "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[3, 50] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{3.015928947446201, 0.}, {3.078760800517997, 
+                 0.12533323356430426`}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{338.1617647058823, 345.22118847539014`}, {
+                69.20557484458664, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[1, 25] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[Pi/25]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox["\[Pi]", "25"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[1, 25] Pi]}, {}], "Tooltip"]& ]}, 
+          {RGBColor[1, 0, 0], EdgeForm[{Opacity[0.35], Thickness[Small]}], 
+           TagBox[
+            TooltipBox[
+             TagBox[
+              DynamicBox[{
+                FEPrivate`If[
+                 CurrentValue["MouseOver"], 
+                 EdgeForm[{
+                   GrayLevel[0.5], 
+                   AbsoluteThickness[1.5], 
+                   Opacity[0.66]}], {}, {}], 
+                
+                RectangleBox[{3.078760800517997, 0.}, {3.141592653589793, 
+                 0.06279051952931337}, "RoundingRadius" -> 0]},
+               
+               ImageSizeCache->{{344.72118847539014`, 351.78061224489795`}, {
+                81.73227448159074, 94.8086071580891}}],
+              StatusArea[#, {Rational[1, 50] Pi, 
+                Sin[Rational[1, 50] Pi]}]& ,
+              TagBoxNote->"{Pi/50, Sin[Pi/50]}"],
+             StyleBox[
+              RowBox[{"{", 
+                RowBox[{
+                  FractionBox["\[Pi]", "50"], ",", 
+                  RowBox[{"Sin", "[", 
+                    FractionBox["\[Pi]", "50"], "]"}]}], "}"}], {}, 
+              StripOnInput -> False]],
+            Annotation[#, 
+             Style[{Rational[1, 50] Pi, 
+               Sin[Rational[1, 50] Pi]}, {}], 
+             "Tooltip"]& ]}}, {}, {}}, {}, {}, {}, {}, {}}, {
         GraphicsComplexBox[CompressedData["
 1:eJw9WHk4VW33NlQOpTJVQoNmiaRI6D68laJMlQYRiiRlKhpEg1SUkCQZKkWE
 klCSEIUkhUKpyBxnG8/Z+5wj3/P+ru/77X/WdV/P2mutZz33s9bae66Th7Wz
@@ -2512,42 +3588,31 @@ fipwj82M5Q17ac9z/mcacTjFfHpRm0dsYyLFucNG/qItubjKKobSjIrcZwvj
 wDkW04/6lCYfCUlEYpKQlGQkJwUpSUVq0pCWdPzML/xKejJwniX0pwFlyM8N
 1jKCllThAVsZT0desJPpfOBg4Ps/kFG/AjDpgUI=
               "]]},
-            Annotation[#, "Charting`Private`Tag$3286#1"]& ]}}], {}, {}}},
+            Annotation[#, "Charting`Private`Tag$15615#1"]& ]}}], {}, {}}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{True, True},
       AxesLabel->{None, None},
-      AxesOrigin->{0, 0},
-      DisplayFunction->Identity,
-      Frame->{{False, False}, {False, False}},
+      AxesOrigin->{-0.06283185307179587, 0.},
+      CoordinatesToolOptions:>{"DisplayFunction" -> ({
+          Identity[
+           Part[#, 1]], 
+          Identity[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          Identity[
+           Part[#, 1]], 
+          Identity[
+           Part[#, 2]]}& )},
       FrameLabel->{{None, None}, {None, None}},
-      FrameTicks->{{Automatic, 
-         Charting`ScaledFrameTicks[{Identity, Identity}]}, {Automatic, 
-         Charting`ScaledFrameTicks[{Identity, Identity}]}},
+      FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
       GridLines->{None, None},
       GridLinesStyle->Directive[
         GrayLevel[0.5, 0.4]],
-      ImagePadding->All,
       ImageSize->Medium,
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, "DefaultMeshStyle" -> 
-        AbsolutePointSize[6], "ScalingFunctions" -> None, 
-        "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
-            (Identity[#]& )[
-             Part[#, 1]], 
-            (Identity[#]& )[
-             Part[#, 2]]}& ), "CopiedValueFunction" -> ({
-            (Identity[#]& )[
-             Part[#, 1]], 
-            (Identity[#]& )[
-             Part[#, 2]]}& )}, "AxesInFront" -> True},
-      PlotRange->
-       NCache[{{0, Pi}, {0., 0.9999999707682925}}, {{0, 3.141592653589793}, {
-         0., 0.9999999707682925}}],
-      PlotRangeClipping->True,
+      PlotRange->{{All, All}, {All, All}},
       PlotRangePadding->{{
          Scaled[0.02], 
          Scaled[0.02]}, {
-         Scaled[0.05], 
+         Scaled[0.02], 
          Scaled[0.05]}},
       Ticks->{Automatic, Automatic}]},
     {"\<\"Rectangle area 1.99934\"\>"},
@@ -2562,8 +3627,10 @@ wDkW04/6lCYfCUlEYpKQlGQkJwUpSUVq0pCWdPzML/xKejJwniX0pwFlyM8N
    3.70713500755856*^9, {3.707137267519124*^9, 3.7071372950503883`*^9}, 
    3.707137438727005*^9, 3.707142014407361*^9, 3.70714209500966*^9, 
    3.707142574983737*^9, 3.7072154998236856`*^9, 3.707216620465625*^9, 
-   3.7072189836535482`*^9},
- CellLabel->"Out[17]=",ExpressionUUID->"024ae0cb-ac13-455e-b379-b15b81a2880f"]
+   3.7072189836535482`*^9, 3.707241747734804*^9, 3.707242254744619*^9, 
+   3.707242612308035*^9, 3.707243156015854*^9, 3.7072436964884977`*^9, {
+   3.707243850623817*^9, 3.707243875532618*^9}},
+ CellLabel->"Out[30]=",ExpressionUUID->"b658350b-81f0-43be-b327-3bc9fb4f3322"]
 }, Open  ]],
 
 Cell["\<\
@@ -2595,16 +3662,16 @@ Cell[BoxData[
      RowBox[{
       RowBox[{"{", 
        RowBox[{"riemannGraphic", "[", 
-        RowBox[{"Sin", ",", " ", "0", ",", " ", "Pi", ",", " ", 
-         RowBox[{"Pi", "/", "rectangles"}], ",", " ", "mode"}], "]"}], "}"}], 
-      ",", "\[IndentingNewLine]", 
+        RowBox[{
+        "Sin", ",", " ", "0", ",", " ", "Pi", ",", " ", "rectangles", ",", 
+         " ", "mode"}], "]"}], "}"}], ",", "\[IndentingNewLine]", 
       RowBox[{"{", "\[IndentingNewLine]", 
        RowBox[{
         RowBox[{"rectArea", " ", "=", " ", 
          RowBox[{"riemannArea", "[", " ", 
-          RowBox[{"Sin", ",", " ", "0", ",", " ", "Pi", ",", " ", 
-           RowBox[{"Pi", "/", "rectangles"}], ",", " ", "mode"}], "]"}]}], 
-        ";", "\[IndentingNewLine]", 
+          RowBox[{
+          "Sin", ",", " ", "0", ",", " ", "Pi", ",", " ", "rectangles", ",", 
+           " ", "mode"}], "]"}]}], ";", "\[IndentingNewLine]", 
         RowBox[{"\"\<Riemann area: \>\"", " ", "<>", 
          RowBox[{"ToString", "[", 
           RowBox[{"rectArea", " ", "//", " ", "N"}], "]"}]}]}], 
@@ -2620,7 +3687,7 @@ Cell[BoxData[
          RowBox[{"error", " ", "//", " ", "N"}], "]"}]}], "}"}]}], 
      "\[IndentingNewLine]", "}"}], "]"}], ",", "\[IndentingNewLine]", 
    RowBox[{"{", 
-    RowBox[{"rectangles", ",", " ", "1", ",", "100", ",", "1"}], "}"}], ",", 
+    RowBox[{"rectangles", ",", " ", "1", ",", "50", ",", "1"}], "}"}], ",", 
    "\[IndentingNewLine]", 
    RowBox[{"{", 
     RowBox[{"mode", ",", " ", 
@@ -2629,15 +3696,16 @@ Cell[BoxData[
       "\"\<Left\>\"", ",", "\"\<Right\>\"", ",", " ", "\"\<Mean\>\""}], 
       "}"}]}], "}"}]}], "\[IndentingNewLine]", "]"}]], "Code",
  CellChangeTimes->CompressedData["
-1:eJxTTMoPSmViYGCQAGIQLT/x/LrT8147njlXshlE3zHQ2w+iGXT8wXRzx7Zj
-IFrJ4dsJEF25nuESiNZZLn4DRO/TU70Dond49jwA0a/YC1+C6CBNkY8g+t2l
-O19A9CUdHeYzQLrpjwU7iK47XqoAokvOK2mA6G173bVAdIb6B0MQ7fdP1AhE
-L4rb0AaiTQ+Fd4PoX4aPJoDoQq9Nk0B0z4SqxWD9uy6uB9Gh/qFbQPST6YvA
-NMM6rb0gWnO/xUGw/Waqx0F0kl4AmP57u/oCiN533+kWiH4favUE7I47L9+A
-3cG+yPwskD7efAZMb1B3CQfRYu9LwfSf7fF7QLTXSt9LILpQ7/arc0C66pfw
-FxAdcvn5j/NA+sQrp58g2kyxJPULkL6c5ZcNogHqLePq
+1:eJwdzr9LAnEABfCrhvsDsgKXOsFMOY4MMmlKCSIhFUtsKhCEyCEEHTJoUIog
+A2tpK7AhWlQqLMIf5JBCpnUukUdFCKFGFkiUWHTvOzw+0+M9xr5kcbRTFCUV
+A3u3C+HrvZoul3efQGGQS0GKNRH9G7ErKBv7ysLlCMVD9rDnHiY5uQDPJwPP
+sEq7KtCilHzCd15oQJ5lO3KivpaWhqsZTx90F2QDMJaYUMEFxYcaGv+6hmBo
+LroOh9O2TdhUvwShy3C8AwNB7wHpX9xFoNVkPYXl3RCRCqsSUJnSXpJ9jTwD
+7ZyZ+FtauYXJJ/0DrFtHy+SHUHkjP+jQyI1oxp8jRhXjNthd9xBbZ/NxaDia
+4qGLK1Xzot5mZwPOFF+/C6LZqv4Hahi3oyFaXDQ6YZxZm27br+mcW2nio6R/
+FqqkZuI/UH/xOg==
   "],
- CellLabel->"In[18]:=",ExpressionUUID->"0449fbf1-8781-4ea3-81b1-40d22a51349a"],
+ CellLabel->"In[28]:=",ExpressionUUID->"0449fbf1-8781-4ea3-81b1-40d22a51349a"],
 
 Cell[BoxData[
  TagBox[
@@ -2646,27 +3714,26 @@ Cell[BoxData[
      1, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
-      Hold[$CellContext`rectangles$$], 1, 100, 1}, {
+      Hold[$CellContext`rectangles$$], 1, 50, 1}, {
       Hold[$CellContext`mode$$], {"Left", "Right", "Mean"}}}, 
-    Typeset`size$$ = {360., {134.634033203125, 140.365966796875}}, 
+    Typeset`size$$ = {360., {138.134033203125, 143.865966796875}}, 
     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    True, $CellContext`rectangles$3315$$ = 0, $CellContext`mode$3316$$ = 0}, 
+    True, $CellContext`rectangles$15315$$ = 0, $CellContext`mode$15316$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`mode$$ = "Left", $CellContext`rectangles$$ = 
         1}, "ControllerVariables" :> {
-        Hold[$CellContext`rectangles$$, $CellContext`rectangles$3315$$, 0], 
-        Hold[$CellContext`mode$$, $CellContext`mode$3316$$, 0]}, 
+        Hold[$CellContext`rectangles$$, $CellContext`rectangles$15315$$, 0], 
+        Hold[$CellContext`mode$$, $CellContext`mode$15316$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
         Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
          Typeset`skipInitDone$$}, "Body" :> Grid[{{
           $CellContext`riemannGraphic[
-          Sin, 0, Pi, 
-           Pi/$CellContext`rectangles$$, $CellContext`mode$$]}, \
+          Sin, 0, Pi, $CellContext`rectangles$$, $CellContext`mode$$]}, \
 {$CellContext`rectArea = $CellContext`riemannArea[
-            Sin, 0, Pi, Pi/$CellContext`rectangles$$, $CellContext`mode$$]; 
+            Sin, 0, Pi, $CellContext`rectangles$$, $CellContext`mode$$]; 
           StringJoin["Riemann area: ", 
             ToString[
              N[$CellContext`rectArea]]]}, {
@@ -2676,10 +3743,10 @@ Cell[BoxData[
           StringJoin["Error ", 
            ToString[
             N[$CellContext`error]]]}}], 
-      "Specifications" :> {{$CellContext`rectangles$$, 1, 100, 
+      "Specifications" :> {{$CellContext`rectangles$$, 1, 50, 
          1}, {$CellContext`mode$$, {"Left", "Right", "Mean"}}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{405., {193., 199.}},
+     ImageSizeCache->{405., {197., 203.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -2695,8 +3762,10 @@ Cell[BoxData[
    3.707140014611352*^9}, 3.707140121731967*^9, 3.707140306257801*^9, 
    3.707142024683655*^9, {3.707142088924603*^9, 3.7071420905382843`*^9}, 
    3.707142577321363*^9, 3.707215500652315*^9, {3.70721672066604*^9, 
-   3.707216730811109*^9}, 3.707218984155023*^9},
- CellLabel->"Out[18]=",ExpressionUUID->"0f29ec96-18a2-43c2-aee3-2e9ff6fcb897"]
+   3.707216730811109*^9}, 3.707218984155023*^9, 3.707241748431795*^9, 
+   3.707242258510661*^9, 3.7072431718905077`*^9, 3.7072432034322147`*^9, 
+   3.707243697202099*^9, {3.707243852706238*^9, 3.7072438736192923`*^9}},
+ CellLabel->"Out[28]=",ExpressionUUID->"649cd089-d665-4da6-b601-c4aadcc03377"]
 }, Open  ]],
 
 Cell["\<\
@@ -2722,16 +3791,17 @@ Cell[BoxData[
    RowBox[{"Abs", "[", 
     RowBox[{"area", " ", "-", " ", 
      RowBox[{"riemannArea", "[", 
-      RowBox[{"Sin", ",", " ", "0", ",", " ", "Pi", ",", " ", 
-       RowBox[{"Pi", " ", "/", " ", "r"}]}], "]"}]}], "]"}], ",", 
+      RowBox[{"Sin", ",", " ", "0", ",", " ", "Pi", ",", " ", "r"}], "]"}]}], 
+    "]"}], ",", 
    RowBox[{"{", 
     RowBox[{"r", ",", " ", "1", ",", " ", "500", ",", "1"}], "}"}], ",", " ", 
    
    RowBox[{"ImageSize", " ", "\[Rule]", " ", "Medium"}]}], "]"}]], "Code",
  CellChangeTimes->{{3.707141094362384*^9, 3.707141246005515*^9}, {
   3.7071412917199497`*^9, 3.7071412964937077`*^9}, {3.707142061182725*^9, 
-  3.7071420669960623`*^9}, {3.7072168147784643`*^9, 3.707216826664915*^9}},
- CellLabel->"In[20]:=",ExpressionUUID->"86915366-41a7-4588-9622-c31de5e87bbc"],
+  3.7071420669960623`*^9}, {3.7072168147784643`*^9, 3.707216826664915*^9}, {
+  3.707243228965448*^9, 3.707243243224461*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"86915366-41a7-4588-9622-c31de5e87bbc"],
 
 Cell[BoxData[
  GraphicsBox[{
@@ -3237,8 +4307,9 @@ uh6tgQ3LSxY8/4v7w5r563+/SOtg84zswftoCVffCXux9q+g/wGWzpsj
  CellChangeTimes->{
   3.707141260299472*^9, 3.707141304288307*^9, 3.707142074519527*^9, 
    3.7072155071409197`*^9, 3.70721683552212*^9, {3.7072189863799667`*^9, 
-   3.707218988426922*^9}},
- CellLabel->"Out[20]=",ExpressionUUID->"2b11928a-b929-4107-9464-5d5a4a27c319"]
+   3.707218988426922*^9}, 3.707241750768819*^9, 3.707243245901873*^9, {
+   3.707243699380579*^9, 3.707243701621106*^9}, 3.7072438716549587`*^9},
+ CellLabel->"Out[27]=",ExpressionUUID->"745e3204-89e6-4adf-a544-ca706c56898d"]
 }, Open  ]],
 
 Cell["\<\
@@ -3459,101 +4530,101 @@ Cell[1671, 47, 479, 9, 30, "Text", "ExpressionUUID" -> \
 Cell[2153, 58, 558, 8, 31, "Direction", "ExpressionUUID" -> \
 "170bd37b-3220-4e30-ac3b-37c633e2cd52"],
 Cell[CellGroupData[{
-Cell[2736, 70, 1872, 40, 129, "Code", "ExpressionUUID" -> \
+Cell[2736, 70, 1873, 40, 129, "Code", "ExpressionUUID" -> \
 "f61c6b6a-bfe1-4e8b-a538-ff0a10226f98"],
-Cell[4611, 112, 9053, 170, 257, "Output", "ExpressionUUID" -> \
-"63823a5a-cf49-4219-aaaa-18b8e8ec5eb6"]
+Cell[4612, 112, 9127, 171, 257, "Output", "ExpressionUUID" -> \
+"930d572c-2ee9-4437-813c-5ae354da2a81"]
 }, Open  ]],
-Cell[13679, 285, 623, 10, 49, "Text", "ExpressionUUID" -> \
+Cell[13754, 286, 623, 10, 49, "Text", "ExpressionUUID" -> \
 "94cfe48d-9e74-4b99-bed4-7ff358046ea9"],
-Cell[14305, 297, 236, 4, 31, "Direction", "ExpressionUUID" -> \
+Cell[14380, 298, 236, 4, 31, "Direction", "ExpressionUUID" -> \
 "a9067e71-e82c-4d66-a2c5-a2a4443f04db"],
 Cell[CellGroupData[{
-Cell[14566, 305, 4135, 104, 395, "Code", "ExpressionUUID" -> \
+Cell[14641, 306, 4289, 107, 395, "Code", "ExpressionUUID" -> \
 "b95315fd-d266-4051-8f89-075d9f87c96d"],
-Cell[18704, 411, 17032, 303, 293, "Output", "ExpressionUUID" -> \
-"1b8c51a5-f7f3-4472-91e6-cdcd26932caa"]
+Cell[18933, 415, 17159, 305, 293, "Output", "ExpressionUUID" -> \
+"b25d32a8-06f8-4392-a3be-9cde67c81317"]
 }, Open  ]],
-Cell[35751, 717, 540, 9, 30, "Text", "ExpressionUUID" -> \
+Cell[36107, 723, 540, 9, 30, "Text", "ExpressionUUID" -> \
 "eb656b6c-f81e-4408-bc9b-549833b2a2cc"],
-Cell[36294, 728, 252, 4, 31, "Direction", "ExpressionUUID" -> \
+Cell[36650, 734, 252, 4, 31, "Direction", "ExpressionUUID" -> \
 "c192a676-793c-491c-acb3-bef32b8e501a"],
 Cell[CellGroupData[{
-Cell[36571, 736, 4638, 111, 509, "Code", "ExpressionUUID" -> \
+Cell[36927, 742, 4748, 113, 509, "Code", "ExpressionUUID" -> \
 "dfb76cf7-6e18-4e55-aad5-faa24a102c41"],
-Cell[41212, 849, 17563, 311, 293, "Output", "ExpressionUUID" -> \
-"46d8832b-a93f-472c-a3d0-3ffd098f7f75"]
+Cell[41678, 857, 17667, 313, 293, "Output", "ExpressionUUID" -> \
+"4026e5f8-8378-438a-939b-13cd6ecde866"]
 }, Open  ]],
-Cell[58790, 1163, 1882, 35, 169, "Text", "ExpressionUUID" -> \
+Cell[59360, 1173, 1882, 35, 169, "Text", "ExpressionUUID" -> \
 "30bb28b2-dc49-4990-bacb-b0afdd42588e"],
-Cell[60675, 1200, 2531, 59, 281, "Code", "ExpressionUUID" -> \
+Cell[61245, 1210, 2845, 65, 281, "Code", "ExpressionUUID" -> \
 "229fa9af-5c81-4275-b718-c6ef8e0cd6ed"],
-Cell[63209, 1261, 4575, 100, 547, "Code", "ExpressionUUID" -> \
+Cell[64093, 1277, 3822, 83, 509, "Code", "ExpressionUUID" -> \
 "71147497-c669-4a9c-8e3d-cc243415fa11"],
-Cell[67787, 1363, 295, 3, 31, "Direction", "ExpressionUUID" -> \
+Cell[67918, 1362, 295, 3, 31, "Direction", "ExpressionUUID" -> \
 "9e550485-5c98-4f8b-9472-52ff8248a471"],
 Cell[CellGroupData[{
-Cell[68107, 1370, 2573, 48, 167, "Code", "ExpressionUUID" -> \
+Cell[68238, 1369, 2583, 48, 167, "Code", "ExpressionUUID" -> \
 "9556ebe2-849e-461f-b563-89304ac3726f"],
-Cell[70683, 1420, 19125, 347, 293, "Output", "ExpressionUUID" -> \
-"f90d304b-2e7b-4710-8b99-32896949182b"]
+Cell[70824, 1419, 16770, 361, 299, "Output", "ExpressionUUID" -> \
+"c4a72891-4ab5-4adf-afc7-b716bd894ce6"]
 }, Open  ]],
-Cell[89823, 1770, 1275, 28, 112, "Text", "ExpressionUUID" -> \
+Cell[87609, 1783, 1275, 28, 112, "Text", "ExpressionUUID" -> \
 "bceaa2dc-7516-4ab9-acc8-6549b83ca41b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[91135, 1803, 225, 4, 62, "Section", "ExpressionUUID" -> \
+Cell[88921, 1816, 225, 4, 62, "Section", "ExpressionUUID" -> \
 "5d6ab128-0fdf-418b-81a5-7583270b97a0"],
-Cell[91363, 1809, 266, 6, 30, "Text", "ExpressionUUID" -> \
+Cell[89149, 1822, 266, 6, 30, "Text", "ExpressionUUID" -> \
 "ef106b3c-9493-45c4-a2b0-a1d9c03bf213"],
-Cell[91632, 1817, 332, 5, 31, "Direction", "ExpressionUUID" -> \
+Cell[89418, 1830, 332, 5, 31, "Direction", "ExpressionUUID" -> \
 "f1ded114-1f93-4f1d-a4b7-d825e099e881"],
 Cell[CellGroupData[{
-Cell[91989, 1826, 1624, 36, 167, "Code", "ExpressionUUID" -> \
+Cell[89775, 1839, 1597, 34, 167, "Code", "ExpressionUUID" -> \
 "5937fef4-9900-4104-bea7-bc10893bfdf4"],
-Cell[93616, 1864, 39451, 701, 293, "Output", "ExpressionUUID" -> \
-"024ae0cb-ac13-455e-b379-b15b81a2880f"]
+Cell[91375, 1875, 74789, 1757, 299, "Output", "ExpressionUUID" -> \
+"b658350b-81f0-43be-b327-3bc9fb4f3322"]
 }, Open  ]],
-Cell[133082, 2568, 449, 8, 30, "Text", "ExpressionUUID" -> \
+Cell[166179, 3635, 449, 8, 30, "Text", "ExpressionUUID" -> \
 "f82c683c-4d32-4c08-b7a0-7c0cd692162a"],
-Cell[133534, 2578, 362, 7, 31, "Direction", "ExpressionUUID" -> \
+Cell[166631, 3645, 362, 7, 31, "Direction", "ExpressionUUID" -> \
 "d89b4de3-b5fb-43d4-a24d-03a50a784818"],
 Cell[CellGroupData[{
-Cell[133921, 2589, 2266, 50, 281, "Code", "ExpressionUUID" -> \
+Cell[167018, 3656, 2260, 51, 281, "Code", "ExpressionUUID" -> \
 "0449fbf1-8781-4ea3-81b1-40d22a51349a"],
-Cell[136190, 2641, 2913, 57, 409, "Output", "ExpressionUUID" -> \
-"0f29ec96-18a2-43c2-aee3-2e9ff6fcb897"]
+Cell[169281, 3709, 3067, 58, 417, "Output", "ExpressionUUID" -> \
+"649cd089-d665-4da6-b601-c4aadcc03377"]
 }, Open  ]],
-Cell[139118, 2701, 369, 8, 30, "Text", "ExpressionUUID" -> \
+Cell[172363, 3770, 369, 8, 30, "Text", "ExpressionUUID" -> \
 "5b0efd4d-5b36-4dfa-bfbb-371074bf004a"],
-Cell[139490, 2711, 195, 3, 31, "Direction", "ExpressionUUID" -> \
+Cell[172735, 3780, 195, 3, 31, "Direction", "ExpressionUUID" -> \
 "cd2ae452-9962-4732-ba9f-1870615c45ab"],
 Cell[CellGroupData[{
-Cell[139710, 2718, 751, 15, 52, "Code", "ExpressionUUID" -> \
+Cell[172955, 3787, 766, 16, 52, "Code", "ExpressionUUID" -> \
 "86915366-41a7-4588-9622-c31de5e87bbc"],
-Cell[140464, 2735, 32890, 505, 232, "Output", "ExpressionUUID" -> \
-"2b11928a-b929-4107-9464-5d5a4a27c319"]
+Cell[173724, 3805, 33008, 506, 232, "Output", "ExpressionUUID" -> \
+"745e3204-89e6-4adf-a544-ca706c56898d"]
 }, Open  ]],
-Cell[173369, 3243, 452, 9, 30, "Text", "ExpressionUUID" -> \
+Cell[206747, 4314, 452, 9, 30, "Text", "ExpressionUUID" -> \
 "3fd62125-e12c-4207-a5fe-78736e73572c",
  InitializationCell->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[173858, 3257, 234, 4, 59, "FurtherExplorationSection", "ExpressionUUID" \
+Cell[207236, 4328, 234, 4, 59, "FurtherExplorationSection", "ExpressionUUID" \
 -> "7ef20670-b778-4c88-88d7-81c532754f9f"],
-Cell[174095, 3263, 428, 6, 26, "FurtherExploration", "ExpressionUUID" -> \
+Cell[207473, 4334, 428, 6, 26, "FurtherExploration", "ExpressionUUID" -> \
 "f65c51ba-98e6-43ad-9f45-1adec289b51e"],
-Cell[174526, 3271, 353, 5, 26, "FurtherExploration", "ExpressionUUID" -> \
+Cell[207904, 4342, 353, 5, 26, "FurtherExploration", "ExpressionUUID" -> \
 "b204f7dd-3f75-482b-aeab-711b1cc88367"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[174916, 3281, 179, 3, 59, "AuthorshipSection", "ExpressionUUID" -> \
+Cell[208294, 4352, 179, 3, 59, "AuthorshipSection", "ExpressionUUID" -> \
 "c80bebae-f63a-4557-92de-312215b6b2a9"],
-Cell[175098, 3286, 234, 4, 24, "Authorship", "ExpressionUUID" -> \
+Cell[208476, 4357, 234, 4, 24, "Authorship", "ExpressionUUID" -> \
 "7c8d0422-e70d-41a8-846b-7130ee07eb45"],
-Cell[175335, 3292, 215, 4, 24, "Authorship", "ExpressionUUID" -> \
+Cell[208713, 4363, 215, 4, 24, "Authorship", "ExpressionUUID" -> \
 "d014e466-a354-4f0b-b7f9-22c7d722436c"],
-Cell[175553, 3298, 221, 4, 24, "Authorship", "ExpressionUUID" -> \
+Cell[208931, 4369, 221, 4, 24, "Authorship", "ExpressionUUID" -> \
 "5fe63f23-a9be-451f-8a07-0c7c4cb72af8"]
 }, Open  ]]
 }, Open  ]]
