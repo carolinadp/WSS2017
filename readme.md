@@ -1,80 +1,12 @@
-# https://wolfr.am/ss2017git
+# Wolfram Summer School 2017
 
-This is a sample repository for the Wolfram Summer School 2017
-you can clone or fork this repository to get started
+## Project: Figure out the value of a resistor from an image
 
-Thing to do to get started with GIT:
+### Statement of the problem
+Even if Wolfram Alpha contains a tool to obtain the value of a resistor given the colors of its bands, it needs the user to write the colors to obtain this result. The goal of this project is to obtain the color codes from a resistor given a photo of it.
 
-## Create a GitHub account
-https://github.com/join
+### Outline of the future solution
+The currently planned approach is to first remove the background of the image, then crop the image to make the resistor and the bands the only thing visible, once cropped extract the colors. It will be necessary to train a classifier with photos of the all band colors in different illuminations to the extraction to be successful.
 
-## Create a new repo
-you can either create a new repo or fork this one
-
-## Give your instructor write permissions
-you need to give write permission to that repo to your tutor and to @alisonkimball
-in instructors.csv you can find a list of all instructors.
-
-|Github        |Tutor         |Email         |
-|------------- |--------------|--------------|
-|https://github.com/alisonkimball|Alison Kimball|alisonk@wolfram.com|
-|https://github.com/anonymouse64|Ian Johnson|ijohnson@wolfram.com|
-|https://github.com/batracos|Giulio Alessandrini|giulioa@wolfram.com|
-|https://github.com/bernate|Bernat Espigulé|bernatep@gmail.com|
-|https://github.com/carlobarbieri|Carlo Barbieri|carlob@wolfram.com|
-|https://github.com/digiflux|Vitaliy Kaurov|vitaliyk@wolfram.com|
-|https://github.com/etiennebcp|Etienne Bernard|etienneb@wolfram.com|
-|https://github.com/gerli|Gerli Jõgeva|gerlij@wolfram.com|
-|https://github.com/jofregit|Jofre Espigule-Pons|jofree@wolfram.com|
-|https://github.com/KMDaily|Kevin Daily|kevind@wolfram.com|
-|https://github.com/KyleKeane|Kyle Keane|kylek@wolfram.com|
-|https://github.com/levantina|Valentina Biagini|vbiagini@gmail.com|
-|https://github.com/maboyer|Mark Boyer|markb@wolfram.com|
-|https://github.com/matteosal|Matteo Salvarezza|matteos@wolfram.com|
-|https://github.com/matthews-wri|Matthew Szudzik|mszudzik@wolfram.com|
-|https://github.com/paulcabbott|Paul Abbott|abbott@wolfram.com|
-|https://github.com/publicusrex|Peter Barendse|pbarendse@wolfram.com|
-|https://github.com/r-nachbar|Robert Nachbar|rnachbar@wolfram.com|
-|https://github.com/riccardodivirgilio|Riccardo Di Virgilio|riccardod@wolfram.com|
-|https://github.com/timotheev|Timothee Verdier|timotheev@wolfram.com|
-|https://github.com/turnmlz|Lizzie Turner|lizziet@wolfram.com|
-|https://github.com/xavierrw|Xavier Roy|xavierr@wolfram.com|
-
-## Download and install a Git UI
-*On OSX / Wndows*:  
-Download and install github desktop:  
-https://desktop.github.com  
-
-*On Ubuntu*:  
-Download and install git kraken:  
-https://www.gitkraken.com  
-Login and authenticate with GitHub  
-https://support.gitkraken.com/integrations/github
-
-## Install command line utility (optional)
-https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-
-## Clone the repo locally
-by clicking on the button CLONE OR DOWNLOAD and then to OPEN IN DESKTOP
-
-## Write a readme using MarkDown
-a nice cheatsheet can be found here: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-the readme should contain: 
-1. what your project is about
-2. how to run your code
-3. examples, code documentation, etc
-
-## Organize your code
-in this repository you will find 2 different ways to organize your code, the simple way and the programmer way.
-
-### The simple way
-you split your logic into functions that you need for your projects and notebooks that you use to visualize data and show final results.
-1. the code is in `starthere/simple.m`
-2. the notebook used for visualization is in `starthere/simple.nb`
-
-### The programmer way
-I prepared a very simple project paclet you can use, it provides a way to organize your code and your data
-
-1. the code is in paclet in `starthere/Project` folder
-2. raw source data can be put in `starthere/Project/Assets/` folder
-3. the notebook used for visualization is in `starthere/advanced.nb`
+## Topic exploration: Riemann Sum
+https://github.com/carolinadp/WSS2017/blob/master/RiemannSum.nb
