@@ -8,5 +8,6 @@ Even if Wolfram Alpha contains a tool to obtain the value of a resistor given th
 ### Outline of the future solution
 The currently planned approach is to first remove the background of the image, then crop the image to make the resistor and the bands the only thing visible, once cropped extract the colors. It will be necessary to train a classifier with photos of the all band colors in different illuminations to the extraction to be successful.
 
-## Topic exploration: Riemann Sum
+## Topic exploration: Riemann Sum
+
 https://github.com/carolinadp/WSS2017/blob/master/RiemannSum.nb
