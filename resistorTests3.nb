@@ -1,0 +1,161 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5141,        153]
+NotebookOptionsPosition[      4163,        122]
+NotebookOutlinePosition[      4516,        138]
+CellTagsIndexPosition[      4473,        135]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Trying to use File[]", "Section",
+ CellChangeTimes->{{3.707846912837344*^9, 
+  3.70784691816719*^9}},ExpressionUUID->"5019b8a3-d8da-4349-81ed-\
+a82812b91070"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"imagesPath", " ", "=", " ", 
+   RowBox[{
+    RowBox[{"NotebookDirectory", "[", "]"}], " ", "<>", " ", 
+    "\"\<ResistorProject/Assets/Images/\>\""}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"dataPath", " ", "=", " ", 
+   RowBox[{
+    RowBox[{"NotebookDirectory", "[", "]"}], " ", "<>", " ", 
+    "\"\<ResistorProject/Assets/Data/\>\""}]}], ";"}]}], "Code",
+ CellChangeTimes->{{3.707846928153994*^9, 
+  3.707846947241716*^9}},ExpressionUUID->"1f0926e3-0ae0-4d9b-ba64-\
+5da49dfb107f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"filesByType", "[", 
+    RowBox[{"type_", "?", "StringQ"}], "]"}], " ", ":=", " ", 
+   RowBox[{"Map", "[", "\n", "\t", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"File", "[", "#", "]"}], "\[Rule]", "type"}], "&"}], ",", "\n",
+      "\t", 
+     RowBox[{"FileNames", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<*.jpg\>\"", ",", " ", "\"\<*.png\>\""}], "}"}], ",", " ", 
+       RowBox[{
+       "dataPath", " ", "<>", " ", "type", " ", "<>", " ", "\"\</\>\""}]}], 
+      "]"}]}], "\n", "]"}]}], ";"}]], "Code",
+ CellChangeTimes->{{3.707846961328823*^9, 3.707846982619336*^9}, {
+  3.707847064506254*^9, 3.707847112976284*^9}, {3.707847232921224*^9, 
+  3.7078472392963037`*^9}, {3.707847294330001*^9, 3.707847318605057*^9}, {
+  3.70784739867456*^9, 3.707847405184812*^9}, {3.707848110940914*^9, 
+  3.707848184582719*^9}},ExpressionUUID->"d696183a-b2db-4db1-99d9-\
+8f06f8ced4fb"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"makeData", "[", "]"}], " ", ":=", " ", 
+   RowBox[{"Flatten", " ", "@", " ", 
+    RowBox[{"Map", "[", "\n", "\t", 
+     RowBox[{"filesByType", ",", "\n", "\t", 
+      RowBox[{"StringDrop", "[", "\n", "\t\t", 
+       RowBox[{
+        RowBox[{"Select", "[", 
+         RowBox[{
+          RowBox[{"FileNames", "[", 
+           RowBox[{"\"\<*\>\"", ",", "dataPath"}], "]"}], ",", " ", 
+          "DirectoryQ"}], "]"}], ",", "\n", "\t\t", 
+        RowBox[{"StringLength", "[", "dataPath", "]"}]}], "\n", "\t", "]"}]}],
+      "\n", "]"}]}]}], ";"}]], "Code",
+ CellChangeTimes->{{3.70784735274116*^9, 3.707847367634469*^9}, {
+  3.707847428910006*^9, 3.707847465730949*^9}, {3.7078475037537127`*^9, 
+  3.707847549925686*^9}, {3.707847802002602*^9, 3.707847803067869*^9}, {
+  3.707847844622911*^9, 3.707847847438633*^9}, {3.707847914559457*^9, 
+  3.707847931470437*^9}, {3.707848083839168*^9, 
+  3.7078480872307053`*^9}},ExpressionUUID->"3e18c992-89da-4c23-a908-\
+8d68a1daf608"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"data", " ", "=", " ", 
+   RowBox[{"makeData", "[", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.707848096370956*^9, 
+  3.707848100925293*^9}},ExpressionUUID->"09f57009-4638-4e8f-a2ab-\
+ab2b6290191f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"data", "[", 
+  RowBox[{"[", "1", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.707848102707152*^9, 
+  3.7078481062276163`*^9}},ExpressionUUID->"d3941de8-8074-4b08-8e8f-\
+a5c97cd4baf9"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"File", "[", 
+   TemplateBox[{
+    "\"/Users/carolinadelgadillo/Documents/GitHub/WSS2017/ResistorProject/\
+Assets/Data/10Ohm/20170629_185656.jpg\""},
+    "FileArgument"], "]"}], "\[Rule]", "\<\"10Ohm\"\>"}]], "Output",
+ CellChangeTimes->{3.70784815300261*^9, 3.7078482014685783`*^9, 
+  3.707851656234702*^9, 
+  3.707852845745922*^9},ExpressionUUID->"eb116137-042f-471c-a02e-\
+48812be32e69"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{613, 705},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
+2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 164, 3, 64, "Section", "ExpressionUUID" -> \
+"5019b8a3-d8da-4349-81ed-a82812b91070"],
+Cell[747, 27, 515, 13, 72, "Code", "ExpressionUUID" -> \
+"1f0926e3-0ae0-4d9b-ba64-5da49dfb107f"],
+Cell[1265, 42, 952, 23, 110, "Code", "ExpressionUUID" -> \
+"d696183a-b2db-4db1-99d9-8f06f8ced4fb"],
+Cell[2220, 67, 1015, 22, 167, "Code", "ExpressionUUID" -> \
+"3e18c992-89da-4c23-a908-8d68a1daf608"],
+Cell[3238, 91, 237, 6, 32, "Input", "ExpressionUUID" -> \
+"09f57009-4638-4e8f-a2ab-ab2b6290191f"],
+Cell[CellGroupData[{
+Cell[3500, 101, 208, 5, 32, "Input", "ExpressionUUID" -> \
+"d3941de8-8074-4b08-8e8f-a5c97cd4baf9"],
+Cell[3711, 108, 424, 10, 54, "Output", "ExpressionUUID" -> \
+"eb116137-042f-471c-a02e-48812be32e69"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
